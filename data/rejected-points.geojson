@@ -1,0 +1,474 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.794042348862,
+          -31.7513383035341
+        ]
+      },
+      "properties": {
+        "sourceIndex": 124,
+        "name": "Water fountain",
+        "description": "",
+        "sourceStyle": "#icon-503-FF8277-nodesc",
+        "reasons": [
+          "duplicate"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9870608,
+          -32.034442
+        ]
+      },
+      "properties": {
+        "sourceIndex": 229,
+        "name": "Water Fountain (out of order Apr'17)",
+        "description": "",
+        "sourceStyle": "#icon-503-FF8277-nodesc",
+        "reasons": [
+          "marked-out-of-order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1779308,
+          -31.9258135
+        ]
+      },
+      "properties": {
+        "sourceIndex": 261,
+        "name": "Water Tap (Private)",
+        "description": "If your desperate, there is a tap a few meters off the track in a front yard.",
+        "sourceStyle": "#icon-503-FF8277",
+        "reasons": [
+          "private-property"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0347411,
+          -32.0290212
+        ]
+      },
+      "properties": {
+        "sourceIndex": 297,
+        "name": "Water - Broken",
+        "description": "",
+        "sourceStyle": "#icon-503-FF8277-nodesc",
+        "reasons": [
+          "marked-broken"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0349262,
+          -32.0294646
+        ]
+      },
+      "properties": {
+        "sourceIndex": 298,
+        "name": "Water - Broken",
+        "description": "",
+        "sourceStyle": "#icon-503-FF8277-nodesc",
+        "reasons": [
+          "marked-broken"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.883235,
+          -35.0237308
+        ]
+      },
+      "properties": {
+        "sourceIndex": 342,
+        "name": "Public Toilets",
+        "description": "",
+        "sourceStyle": "#icon-503-4186F0-nodesc",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8831334,
+          -35.0231574
+        ]
+      },
+      "properties": {
+        "sourceIndex": 343,
+        "name": "Toilet",
+        "description": "Town Hall",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8871174,
+          -35.0294658
+        ]
+      },
+      "properties": {
+        "sourceIndex": 344,
+        "name": "Toilet",
+        "description": "Whale Cruise office",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8893355,
+          -35.0309833
+        ]
+      },
+      "properties": {
+        "sourceIndex": 345,
+        "name": "Toilet",
+        "description": "Boat Shed",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8973301,
+          -35.0254353
+        ]
+      },
+      "properties": {
+        "sourceIndex": 346,
+        "name": "Toilet",
+        "description": "Carpark toilet",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8947778,
+          -35.0246676
+        ]
+      },
+      "properties": {
+        "sourceIndex": 347,
+        "name": "Water Fountain",
+        "description": "Near Horse",
+        "sourceStyle": "#icon-503-FF8277",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9171937,
+          -35.0260419
+        ]
+      },
+      "properties": {
+        "sourceIndex": 348,
+        "name": "Toilet",
+        "description": "Beach toilets",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9168324,
+          -35.025709
+        ]
+      },
+      "properties": {
+        "sourceIndex": 349,
+        "name": "Water Fountain",
+        "description": "Water Fountain",
+        "sourceStyle": "#icon-503-FF8277",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9159966,
+          -35.024368
+        ]
+      },
+      "properties": {
+        "sourceIndex": 350,
+        "name": "Toilets",
+        "description": "Surf Club",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9470806,
+          -34.9988555
+        ]
+      },
+      "properties": {
+        "sourceIndex": 351,
+        "name": "Water Fountain",
+        "description": "Water Fountain",
+        "sourceStyle": "#icon-503-FF8277",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9467587,
+          -34.9988555
+        ]
+      },
+      "properties": {
+        "sourceIndex": 352,
+        "name": "Toilet",
+        "description": "Toilet",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9472105,
+          -34.9979119
+        ]
+      },
+      "properties": {
+        "sourceIndex": 353,
+        "name": "Water Fountain",
+        "description": "Water Fountain",
+        "sourceStyle": "#icon-503-FF8277",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9477074,
+          -34.9980842
+        ]
+      },
+      "properties": {
+        "sourceIndex": 354,
+        "name": "Toilet",
+        "description": "Toilet",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.799618,
+          -35.0662633
+        ]
+      },
+      "properties": {
+        "sourceIndex": 355,
+        "name": "Toilet",
+        "description": "Toilet",
+        "sourceStyle": "#icon-503-4186F0",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8783926,
+          -35.065278
+        ]
+      },
+      "properties": {
+        "sourceIndex": 356,
+        "name": "Water Tap",
+        "description": "Water Tap",
+        "sourceStyle": "#icon-503-009D57",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6317983,
+          -33.3431987
+        ]
+      },
+      "properties": {
+        "sourceIndex": 497,
+        "name": "Point 482",
+        "description": "",
+        "sourceStyle": "#icon-503-FF8277-nodesc",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8856796,
+          -35.0272177
+        ]
+      },
+      "properties": {
+        "sourceIndex": 615,
+        "name": "Water Fountain",
+        "description": "",
+        "sourceStyle": "#icon-503-FF8277-nodesc",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.0455896,
+          -45.243789
+        ]
+      },
+      "properties": {
+        "sourceIndex": 649,
+        "name": "Point 649",
+        "description": "",
+        "sourceStyle": "#icon-503-FF8277-nodesc",
+        "reasons": [
+          "outside-perth-100km"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "sourceIndex": 657,
+        "name": "Directions from Water Fountain to Water Fountain",
+        "description": "",
+        "sourceStyle": "#line-1267FF-5000-nodesc",
+        "reasons": [
+          "non-point-geometry"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7258783,
+          -31.744227
+        ]
+      },
+      "properties": {
+        "sourceIndex": 659,
+        "name": "Water Fountain",
+        "description": "",
+        "sourceStyle": "#icon-1899-DB4436-nodesc",
+        "reasons": [
+          "duplicate"
+        ]
+      }
+    }
+  ]
+}

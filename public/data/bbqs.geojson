@@ -1,0 +1,605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "cop-bbq-ClaisebrookCkBBQ02A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.876100008889,
+          -31.9521489787943
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-ClaisebrookCkBBQ02A",
+        "assetId": "ClaisebrookCkBBQ02A",
+        "name": "Claisebrook Creek public BBQ",
+        "description": "Claisebrook Cove adjacent to lake",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:44:53.688000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-EastPerthFrShrBBQ03A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.88325801594,
+          -31.9549459176215
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-EastPerthFrShrBBQ03A",
+        "assetId": "EastPerthFrShrBBQ03A",
+        "name": "East Perth Foreshore public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (03A) EastPerthFrShr",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2023-04-18T01:52:10.402000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-GoderichStResBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.874564988393,
+          -31.9582141107175
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-GoderichStResBBQ01A",
+        "assetId": "GoderichStResBBQ01A",
+        "name": "Goderich St Reserve public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (01A) GoderichStRes",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:53.688000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-HaigParkCircleBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.878921958557,
+          -31.954104955966
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-HaigParkCircleBBQ01A",
+        "assetId": "HaigParkCircleBBQ01A",
+        "name": "Haig Park Circle public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (01A) HaigParkCircle",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:42.380000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-HaigParkCircleBBQ02A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.879638002975,
+          -31.953759974903
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-HaigParkCircleBBQ02A",
+        "assetId": "HaigParkCircleBBQ02A",
+        "name": "Haig Park Circle public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (02A) HaigParkCircle",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:42.380000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-JHAbrahamsResBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.819451653286,
+          -31.9872004709378
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-JHAbrahamsResBBQ01A",
+        "assetId": "JHAbrahamsResBBQ01A",
+        "name": "JHAbrahams Reserve public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (01A) JHAbrahams Park",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:45:04.702000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-JHAbrahamsResBBQ03A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.819302080198,
+          -31.9867217860321
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-JHAbrahamsResBBQ03A",
+        "assetId": "JHAbrahamsResBBQ03A",
+        "name": "JHAbrahams Reserve public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (03A) JHAbrahams Park",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:45:04.702000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-JHAbrahamsResBBQ12A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.819271942619,
+          -31.9867374687302
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-JHAbrahamsResBBQ12A",
+        "assetId": "JHAbrahamsResBBQ12A",
+        "name": "JHAbrahams Reserve public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (12A) JHAbrahams Park",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:45:04.702000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-MaceyWalkBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.880350999409,
+          -31.9537880009375
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-MaceyWalkBBQ01A",
+        "assetId": "MaceyWalkBBQ01A",
+        "name": "Macey Walk public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (01A) MaceyWalk",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:42.380000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-MardalupParkBBQ02A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.881415903669,
+          -31.9506378234153
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-MardalupParkBBQ02A",
+        "assetId": "MardalupParkBBQ02A",
+        "name": "Mardalup Park public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (02A) Mardalup Park",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2023-09-04T05:28:11.368000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-NarrowsIntCOPBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.846930962419,
+          -31.95937104254
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-NarrowsIntCOPBBQ01A",
+        "assetId": "NarrowsIntCOPBBQ01A",
+        "name": "Narrows Interchange public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (01A) NarrowsIntCOP",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:44:53.688000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-OzoneResBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.876634091462,
+          -31.9629386788529
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-OzoneResBBQ01A",
+        "assetId": "OzoneResBBQ01A",
+        "name": "Ozone Reserve public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "Double plated BBQ (01A) Ozone Reserve",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:45:35.995000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-OzoneResBBQ02A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.876656518801,
+          -31.9628596878884
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-OzoneResBBQ02A",
+        "assetId": "OzoneResBBQ02A",
+        "name": "Ozone Reserve public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "Double plated BBQ (02A) Ozone Reserve",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:45:35.995000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-PointFraserBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.879718042866,
+          -31.9641489889594
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-PointFraserBBQ01A",
+        "assetId": "PointFraserBBQ01A",
+        "name": "Point Fraser public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (01A) PointFraser",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:29.826000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-PointFraserBBQ02A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8797340212,
+          -31.964184034686
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-PointFraserBBQ02A",
+        "assetId": "PointFraserBBQ02A",
+        "name": "Point Fraser public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (02A) PointFraser",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:29.826000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-PointFraserBBQ03A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.880104026486,
+          -31.964210028798
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-PointFraserBBQ03A",
+        "assetId": "PointFraserBBQ03A",
+        "name": "Point Fraser public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (03A) PointFraser",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:29.826000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-RodEvansCentreBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.87475599807,
+          -31.9589239859913
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-RodEvansCentreBBQ01A",
+        "assetId": "RodEvansCentreBBQ01A",
+        "name": "Rod Evans Centre public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "single",
+        "assetDescription": "BBQ (01A) RodEvansCentre",
+        "assetType": "BBQ_SINGLE",
+        "lastUpdated": "2021-11-22T04:44:53.688000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-VictoriaGdnsBBQA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.880640008995,
+          -31.9528419921652
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-VictoriaGdnsBBQA",
+        "assetId": "VictoriaGdnsBBQA",
+        "name": "Victoria Gardens public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (BQA) VictoriaGdns",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:44:53.688000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-WellingtonSqBBQ01A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872065788136,
+          -31.9545182632412
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-WellingtonSqBBQ01A",
+        "assetId": "WellingtonSqBBQ01A",
+        "name": "Wellington Sq public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (01A) WellingtonSq",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:45:57.102000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-WellingtonSqBBQ02A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.87043559922,
+          -31.9547384610676
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-WellingtonSqBBQ02A",
+        "assetId": "WellingtonSqBBQ02A",
+        "name": "Wellington Sq public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (02A) WellingtonSq",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:45:57.102000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-WellingtonSqBBQ03A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.87324507039,
+          -31.9537162155524
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-WellingtonSqBBQ03A",
+        "assetId": "WellingtonSqBBQ03A",
+        "name": "Wellington Sq public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (03A) WellingtonSq",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-22T04:45:57.102000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-WellingtonSqBBQ04A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.871868112061,
+          -31.9551446695315
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-WellingtonSqBBQ04A",
+        "assetId": "WellingtonSqBBQ04A",
+        "name": "Wellington Sq public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (04A) WellingtonSq",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-25T01:44:51.165000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-WellingtonSqBBQ05A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872406194831,
+          -31.9551390072441
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-WellingtonSqBBQ05A",
+        "assetId": "WellingtonSqBBQ05A",
+        "name": "Wellington Sq public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (05A) WellingtonSq",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-25T01:44:51.165000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cop-bbq-WellingtonSqBBQ06A",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.872764266897,
+          -31.9554982855131
+        ]
+      },
+      "properties": {
+        "id": "cop-bbq-WellingtonSqBBQ06A",
+        "assetId": "WellingtonSqBBQ06A",
+        "name": "Wellington Sq public BBQ",
+        "description": "",
+        "category": "bbq",
+        "kind": "double",
+        "assetDescription": "BBQ (06A) WellingtonSq",
+        "assetType": "BBQ_DOUBLE",
+        "lastUpdated": "2021-11-25T01:44:51.165000Z",
+        "source": "City of Perth Street Appurtenances",
+        "sourceUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "licence": "Creative Commons Attribution 4.0"
+      }
+    }
+  ]
+}

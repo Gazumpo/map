@@ -1,0 +1,710 @@
+{
+  "type": "FeatureCollection",
+  "name": "Main surf spots near Perth",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "surf-lancelin",
+      "properties": {
+        "name": "Lancelin",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Lancelin",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.26,
+          -30.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-back-beach_2",
+      "properties": {
+        "name": "Lancelin Back Beach",
+        "category": "surf",
+        "surfType": "Beach break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Back-Beach_2",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.28,
+          -30.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-ledge-point",
+      "properties": {
+        "name": "Ledge Point",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Ledge-Point",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.3,
+          -30.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-guilderton-rivermouth",
+      "properties": {
+        "name": "Guilderton Rivermouth",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Guilderton-Rivermouth",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5,
+          -31.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-the-spot",
+      "properties": {
+        "name": "The Spot",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/The-Spot",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6,
+          -31.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-alkimos",
+      "properties": {
+        "name": "Alkimos",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Alkimos",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.68,
+          -31.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-mullaloo",
+      "properties": {
+        "name": "Mullaloo",
+        "category": "surf",
+        "surfType": "Point / reef break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Mullaloo",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.72,
+          -31.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-watermans",
+      "properties": {
+        "name": "Watermans",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Watermans",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.74,
+          -31.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-north-beach-tom-s",
+      "properties": {
+        "name": "North Beach Tom's",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Autumn and winter (March-August); needs sufficient swell",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/North-Beach-Tom-s",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75,
+          -31.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-bennion-beach-cleggies",
+      "properties": {
+        "name": "Bennion Beach Cleggies",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Bennion-Beach-Cleggies",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75,
+          -31.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-trigg-point",
+      "properties": {
+        "name": "Trigg Point",
+        "category": "surf",
+        "surfType": "Point break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Trigg-Point",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Nearby Trigg Island facility in National Public Toilet Map; approximate coastal position",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.751,
+          -31.878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-trigg-beach-and-point",
+      "properties": {
+        "name": "Trigg Beach",
+        "category": "surf",
+        "surfType": "Beach and point break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Trigg-Beach-and-Point",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Nearby South Trigg Rotunda facility in National Public Toilet Map; approximate coastal position",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.752,
+          -31.882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-scarborough_2",
+      "properties": {
+        "name": "Scarborough Beach",
+        "category": "surf",
+        "surfType": "Beach break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Scarborough_2",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75,
+          -31.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-brighton-beach",
+      "properties": {
+        "name": "Brighton Beach",
+        "category": "surf",
+        "surfType": "Beach break",
+        "season": "Winter (June-August); smaller summer waves for lessons",
+        "sourceUrl": "https://www.mybeach.com.au/beaches/brighton-beach/",
+        "sourceName": "Surf Life Saving WA",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Nearby Brighton Beach facility in National Public Toilet Map; approximate coastal position",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.755,
+          -31.898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-floreat-groyne",
+      "properties": {
+        "name": "Floreat groyne",
+        "category": "surf",
+        "surfType": "Beach/groyne break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Floreat-groyne",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Nearby Floreat Beach facility in National Public Toilet Map; approximate coastal position",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.754,
+          -31.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-city-beach-groyne",
+      "properties": {
+        "name": "City Beach groyne",
+        "category": "surf",
+        "surfType": "Beach/groyne break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/City-Beach-groyne",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75,
+          -31.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-cottesloe-beach",
+      "properties": {
+        "name": "Cottesloe Beach",
+        "category": "surf",
+        "surfType": "Beach/groyne break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Cottesloe-Beach",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.74,
+          -31.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-the-cove-and-seconds",
+      "properties": {
+        "name": "The Cove and Seconds",
+        "category": "surf",
+        "surfType": "Reef break - Cove right; Seconds left",
+        "season": "Autumn and winter (March-August); needs swell",
+        "sourceUrl": "https://waveexplorers.com/guide/australia/perth/surfing-cottesloe/",
+        "sourceName": "Wave Explorers",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Approximate position south of Cottesloe groyne from area guide",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75,
+          -31.998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-isolators",
+      "properties": {
+        "name": "Isolators",
+        "category": "surf",
+        "surfType": "Reef break - lefts and rights; longboarding",
+        "season": "Autumn and winter (March-August); needs swell",
+        "sourceUrl": "https://waveexplorers.com/guide/australia/perth/surfing-cottesloe/",
+        "sourceName": "Wave Explorers",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Approximate position south of the Cove from area guide",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75,
+          -32.002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-leighton-beach",
+      "properties": {
+        "name": "Leighton Beach",
+        "category": "surf",
+        "surfType": "Beach break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Leighton-Beach",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.74,
+          -32.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-stark-bay",
+      "properties": {
+        "name": "Stark Bay",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Stark-Bay",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.47,
+          -32.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-chicken-reef",
+      "properties": {
+        "name": "Chicken Reef",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Chicken-Reef",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.52,
+          -32.019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-strickland-bay",
+      "properties": {
+        "name": "Strickland Bay",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Strickland-Bay",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.48,
+          -32.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-salmon-point",
+      "properties": {
+        "name": "Salmon Point",
+        "category": "surf",
+        "surfType": "Reef break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Salmon-Point",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.522,
+          -32.023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-secret-harbour",
+      "properties": {
+        "name": "Secret Harbour",
+        "category": "surf",
+        "surfType": "Beach break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Secret-Harbour",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.74,
+          -32.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-golden-bay",
+      "properties": {
+        "name": "Golden Bay",
+        "category": "surf",
+        "surfType": "Beach break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Golden-Bay",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.74,
+          -32.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-singleton",
+      "properties": {
+        "name": "Singleton",
+        "category": "surf",
+        "surfType": "Beach break",
+        "season": "Winter (June-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Singleton",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.74,
+          -32.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-cozies-and-geeries",
+      "properties": {
+        "name": "Cozies and Geeries",
+        "category": "surf",
+        "surfType": "Reef and point break",
+        "season": "Autumn and winter (March-August); summer is often small",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Cozies-and-Geeries",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.65,
+          -32.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-avalon-point",
+      "properties": {
+        "name": "Avalon Point",
+        "category": "surf",
+        "surfType": "Point break",
+        "season": "Autumn to spring (March-November); summer is often small",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Avalon-Point",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.64,
+          -32.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-pyramids-beach",
+      "properties": {
+        "name": "Pyramids Beach",
+        "category": "surf",
+        "surfType": "Beach and reef break",
+        "season": "Autumn and winter (March-August; regional swell season)",
+        "sourceUrl": "https://www.mybeach.com.au/beaches/pyramids-beach/",
+        "sourceName": "Surf Life Saving WA",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Approximate coast near Port Bouvard Surf Life Saving Club in National Public Toilet Map",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.627,
+          -32.607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-melros",
+      "properties": {
+        "name": "Melros",
+        "category": "surf",
+        "surfType": "Beach and reef break",
+        "season": "Autumn and winter (March-August)",
+        "sourceUrl": "https://www.surf-forecast.com/breaks/Melros",
+        "sourceName": "Surf-Forecast",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "Surf-Forecast approximate surf-area coordinates",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.61,
+          -32.62
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surf-tims-thicket",
+      "properties": {
+        "name": "Tims Thicket",
+        "category": "surf",
+        "surfType": "Beach and reef break",
+        "season": "Autumn and winter (March-August; regional swell season)",
+        "sourceUrl": "https://www.wannasurf.com/spot/Australia_Pacific/Australia/WA/Perth_South/tims_thicket/",
+        "sourceName": "WannaSurf",
+        "reviewedAt": "2026-10-13",
+        "coordinateSource": "WannaSurf approximate GPS location",
+        "addressNote": "Approximate surf area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.61447,
+          -32.65298
+        ]
+      }
+    }
+  ]
+}

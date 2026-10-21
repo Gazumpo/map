@@ -1,0 +1,719 @@
+{
+  "type": "FeatureCollection",
+  "name": "Perth snorkelling spots",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "snorkelling-lancelin",
+      "properties": {
+        "name": "Lancelin Bay and island reefs",
+        "category": "snorkelling",
+        "area": "Lancelin",
+        "description": "A sheltered bay with limestone and coral reefs around Lancelin Island. Offshore reefs need a boat or organised outing.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose light winds and low swell; avoid windsurfing and boating traffic.",
+        "accessNote": "Beach access in town; island reefs are offshore, not a suggested swim from shore.",
+        "sourceUrl": "https://www.destinationperth.com.au/blog/post/best-beaches-in-perth/",
+        "sourceName": "Destination Perth",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.323,
+          -31.012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-yanchep-lagoon",
+      "properties": {
+        "name": "Yanchep Lagoon",
+        "category": "snorkelling",
+        "area": "Yanchep",
+        "description": "A reef-fringed lagoon with fish and shallow reef habitat, close to parking and beach facilities.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Low swell and light winds. A permanent rip flows out through the northern channel; the lagoon is not always calm.",
+        "accessNote": "Enter from the main beach and check patrol advice and beach signs.",
+        "sourceUrl": "https://www.mybeach.com.au/beaches/yanchep-lagoon/",
+        "sourceName": "Surf Life Saving WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.623,
+          -31.548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-burns-beach",
+      "properties": {
+        "name": "Burns Beach reefs",
+        "category": "snorkelling",
+        "area": "Burns Beach",
+        "description": "Nearshore rocky reef at the northern end of Marmion Marine Park; one of the council-listed local snorkelling areas.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "An exposed coast: choose very low swell and light winds. Reef surge can build quickly.",
+        "accessNote": "Shore access near Burns Beach foreshore; assess the rocky entry on the day.",
+        "sourceUrl": "https://www.joondalup.wa.gov.au/community-and-spaces/facilities%2C-venues-and-parks/beaches",
+        "sourceName": "City of Joondalup",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.717,
+          -31.728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-north-lump",
+      "properties": {
+        "name": "North Lump reef",
+        "category": "snorkelling",
+        "area": "Offshore Mullaloo / Marmion Marine Park",
+        "description": "An offshore reef listed by the City of Joondalup as a snorkelling destination accessible only by boat.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "An exposed offshore site: choose calm seas, low swell and an experienced boat operator.",
+        "accessNote": "Boat or organised outing access only; this marker is not a marine navigation waypoint.",
+        "sourceUrl": "https://www.joondalup.wa.gov.au/community-and-spaces/facilities%2C-venues-and-parks/beaches",
+        "sourceName": "City of Joondalup",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "GeoNames North Lump (2078761), via Mapcarta; rounded approximate reef area",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "coordinateSourceUrl": "https://mapcarta.com/16503200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.692,
+          -31.787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-little-island",
+      "properties": {
+        "name": "Little Island reefs",
+        "category": "snorkelling",
+        "area": "Offshore Hillarys / Marmion Marine Park",
+        "description": "A boat-access snorkelling area around Little Island, listed in the City of Joondalup beach guide.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose calm weather and low swell; maintain distance from resting wildlife and boat traffic.",
+        "accessNote": "Boat or organised outing access, not a suggested shore swim. Follow sanctuary and wildlife signs.",
+        "sourceUrl": "https://www.joondalup.wa.gov.au/community-and-spaces/facilities%2C-venues-and-parks/beaches",
+        "sourceName": "City of Joondalup",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "OpenStreetMap Little Island coastline (way 48344808), via Mapcarta; rounded approximate area",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "coordinateSourceUrl": "https://mapcarta.com/16480916"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.709,
+          -31.812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-boyinaboat-reef",
+      "properties": {
+        "name": "Boyinaboat Reef",
+        "category": "snorkelling",
+        "area": "Hillarys / Marmion Marine Park",
+        "description": "A marine sanctuary reef about 100 m off Hillarys Boat Harbour seawall, in roughly 6 m of water.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "For confident swimmers in low swell and light winds; this is an offshore swim, not a shallow lagoon.",
+        "accessNote": "Use an appropriate shore entry south of the harbour; no fishing or collecting in the sanctuary.",
+        "sourceUrl": "https://exploreparks.dbca.wa.gov.au/site/boyinaboat-reef",
+        "sourceName": "DBCA Explore Parks WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.735,
+          -31.828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-maac-trail",
+      "properties": {
+        "name": "MAAC Dive and Snorkel Trail",
+        "category": "snorkelling",
+        "area": "Marmion",
+        "description": "An established reef snorkel trail beside the Marmion Angling and Aquatic Club in Marmion Marine Park.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose low swell and light morning winds; reef surge and visibility vary.",
+        "accessNote": "Public beach access near the MAAC on West Coast Drive; follow the trail information at the beach.",
+        "sourceUrl": "https://exploreparks.dbca.wa.gov.au/park/marmion-marine-park",
+        "sourceName": "DBCA Explore Parks WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.749,
+          -31.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-watermans-bay",
+      "properties": {
+        "name": "Watermans Bay",
+        "category": "snorkelling",
+        "area": "Watermans Bay",
+        "description": "A small coastal bay with nearby rocky reef, on the Sunset Coast between Marmion and North Beach.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Best on calm, low-swell days; waves can wash across the reef.",
+        "accessNote": "Shore access from West Coast Drive; choose a clear sandy entry.",
+        "sourceUrl": "https://www.destinationperth.com.au/plan-your-visit/itineraries/sunset-coast-self-drive-trail/",
+        "sourceName": "Destination Perth",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75,
+          -31.849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-mettams-pool",
+      "properties": {
+        "name": "Mettam's Pool",
+        "category": "snorkelling",
+        "area": "North Beach / Trigg",
+        "description": "A natural reef lagoon less than 2 m deep, with reef fish in its rocky holes and crevices.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose low swell. The outer reef can have strong surge even when the inner pool looks sheltered.",
+        "accessNote": "Shore access from West Coast Drive; toilets, showers and change facilities nearby.",
+        "sourceUrl": "https://exploreparks.dbca.wa.gov.au/site/mettams-pool",
+        "sourceName": "DBCA Explore Parks WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.751,
+          -31.868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-cottesloe",
+      "properties": {
+        "name": "Cottesloe reef",
+        "category": "snorkelling",
+        "area": "Cottesloe",
+        "description": "Reef habitat around one of Perth's main beaches, with cafes and public beach facilities nearby.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Snorkel only in low swell and light winds; the same coast is used for surfing when waves build.",
+        "accessNote": "Shore access from Marine Parade; choose an entry suited to the conditions.",
+        "sourceUrl": "https://www.cottesloe.wa.gov.au/community/families-youth-and-children/activities-for-youth/cottesloe-beach.aspx",
+        "sourceName": "Town of Cottesloe",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.751,
+          -31.995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-omeo-wreck",
+      "properties": {
+        "name": "Omeo Wreck / Coogee Maritime Trail",
+        "category": "snorkelling",
+        "area": "North Coogee",
+        "description": "A wreck about 25 m offshore, plus artificial reef and underwater sculptures. Most of the trail is 2.5-5 m deep.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Light winds and clear, calm water. The outer trail reaches 7 m; stay within your swimming ability.",
+        "accessNote": "Use the beach path or access stairs near Socrates Parade. Do not climb or stand on the wreck.",
+        "sourceUrl": "https://www.cockburn.wa.gov.au/Adventure-and-Leisure/Nature-and-Outdoors/Trails-and-Lookouts/Coogee-Maritime-Trail",
+        "sourceName": "City of Cockburn",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.761,
+          -32.105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-sues-groyne",
+      "properties": {
+        "name": "Sue's Groyne",
+        "category": "snorkelling",
+        "area": "Coogee",
+        "description": "A coastal groyne listed by Transport WA as an alternative snorkelling location during Ammo Jetty works.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Suitable weather and low swell are essential; watch for fishing lines around the rocks.",
+        "accessNote": "Shore access near the Coogee Beach foreshore; check local signs and entry conditions.",
+        "sourceUrl": "https://transport.wa.gov.au/marine/projects-coastal-management/maritime-coastal-infrastructure-projects/new-woodman-point-ammo-jetty",
+        "sourceName": "Transport WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.762,
+          -32.118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-woodman-point-groyne",
+      "properties": {
+        "name": "Woodman Point Groyne",
+        "category": "snorkelling",
+        "area": "Woodman Point",
+        "description": "A rock groyne listed by Transport WA as an alternative to the closed Ammo Jetty snorkelling site.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose calm weather and good visibility; watch for fishing lines and nearby boat activity.",
+        "accessNote": "Use public shore access outside construction exclusion areas; check signs before entering.",
+        "sourceUrl": "https://transport.wa.gov.au/marine/projects-coastal-management/maritime-coastal-infrastructure-projects/new-woodman-point-ammo-jetty",
+        "sourceName": "Transport WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.746,
+          -32.136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-ammo-jetty",
+      "properties": {
+        "name": "Ammo Jetty - closed during works",
+        "category": "snorkelling",
+        "area": "Woodman Point",
+        "description": "A well-known jetty-pile snorkelling site currently affected by the replacement project.",
+        "season": "Closed during replacement works from October 2026; check the project page for reopening.",
+        "conditions": "Snorkelling under and immediately beside the jetty is prohibited during construction.",
+        "accessNote": "Closed for replacement works from October 2026. Check the official project page for reopening; nearby reserve works extend to late 2027.",
+        "sourceUrl": "https://transport.wa.gov.au/marine/projects-coastal-management/maritime-coastal-infrastructure-projects/new-woodman-point-ammo-jetty",
+        "sourceName": "Transport WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Official Transport WA construction access restrictions",
+        "status": "temporarily-closed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.756,
+          -32.132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-point-peron",
+      "properties": {
+        "name": "Point Peron / Cape Peron",
+        "category": "snorkelling",
+        "area": "Rockingham / Shoalwater Islands Marine Park",
+        "description": "Limestone reef and rocky bays at the headland, with marine life among reef ledges and seagrass.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose low swell and light winds; exposed reef edges and channels can have surge.",
+        "accessNote": "Shore access from the end of Point Peron Road; use a bay and entry suited to the day.",
+        "sourceUrl": "https://exploreparks.dbca.wa.gov.au/site/cape-peron-rockingham-lakes",
+        "sourceName": "DBCA Explore Parks WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.687,
+          -32.271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-shoalwater-bay",
+      "properties": {
+        "name": "Shoalwater Bay",
+        "category": "snorkelling",
+        "area": "Shoalwater / Rockingham",
+        "description": "Seagrass and reef habitat within Shoalwater Islands Marine Park, with nearby islands reached by boat or tour.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose calm weather and clear water; boat traffic and wind can affect the bay.",
+        "accessNote": "Mainland shore access near Mersey Point. Use a boat or tour for the islands; do not cross the Penguin Island sandbar.",
+        "sourceUrl": "https://exploreparks.dbca.wa.gov.au/park/shoalwater-islands-marine-park",
+        "sourceName": "DBCA Explore Parks WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.697,
+          -32.299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-penguin-island",
+      "properties": {
+        "name": "Penguin Island reefs",
+        "category": "snorkelling",
+        "area": "Shoalwater Islands Marine Park",
+        "description": "Reefs and seagrass around the island support varied marine life; western reefs are more exposed.",
+        "season": "Usually mid-October to early June; closed June-October for penguin breeding. Check exact opening dates and Park Alerts.",
+        "conditions": "Choose calm weather and check Park Alerts before travel; closures can affect all visitor access.",
+        "accessNote": "Use the ferry or a boat, not the sandbar. The island closes for breeding season and on forecast summer days of 35 C or above.",
+        "sourceUrl": "https://exploreparks.dbca.wa.gov.au/park/penguin-island-conservation-park",
+        "sourceName": "DBCA Explore Parks WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Official DBCA island access season and summer heat closures"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.691,
+          -32.306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-carnac-island",
+      "properties": {
+        "name": "Carnac Island waters",
+        "category": "snorkelling",
+        "area": "Offshore southwest of Fremantle",
+        "description": "Boat-access snorkelling around a protected limestone island with marine wildlife, including sea lions.",
+        "season": "Popular in summer; waters accessible by boat in suitable conditions. Beach access prohibited November-March for nesting birds.",
+        "conditions": "Choose calm weather and keep your distance from wildlife; anchor outside the yellow markers.",
+        "accessNote": "Boat or organised tour access only. No beach access during fairy tern nesting (November-March); no inland access at any time.",
+        "sourceUrl": "https://exploreparks.dbca.wa.gov.au/park/carnac-island-nature-reserve",
+        "sourceName": "DBCA Explore Parks WA",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Official DBCA summer visitation and fairy tern nesting restrictions"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.666,
+          -32.121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-blue-bay",
+      "properties": {
+        "name": "Blue Bay",
+        "category": "snorkelling",
+        "area": "Halls Head / Mandurah",
+        "description": "A beach known for snorkelling, with rock pools at low tide and nearby toilets, showers and parking.",
+        "season": "Usually most comfortable in summer and early autumn (December-April); calm days matter more than the month.",
+        "conditions": "Choose low swell and light winds; avoid entering rocky areas with breaking waves.",
+        "accessNote": "Shore access from the Blue Bay foreshore off Halls Head Parade.",
+        "sourceUrl": "https://visitmandurah.com/things-to-do/beaches-boating-and-fishing/beaches-and-surfing/",
+        "sourceName": "Visit Mandurah",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.696,
+          -32.525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-the-basin",
+      "properties": {
+        "name": "The Basin",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - north coast",
+        "description": "A shallow reef pool near the main settlement, with fish and limestone reef habitat.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "Choose a sheltered, low-swell day; outer reef water can be rougher than the pool.",
+        "accessNote": "Shore access; an easy walk or cycle from the settlement with beach facilities nearby.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/the-basin",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.535,
+          -31.989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-little-parakeet-bay",
+      "properties": {
+        "name": "Little Parakeet Bay",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - north coast",
+        "description": "A small reef-protected cove with shallow water, sea stars and schooling fish.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "North-coast shelter is often useful in southerly winds; still check swell and water movement.",
+        "accessNote": "Shore access by bike or island bus; bring water and supplies as there are no facilities at the bay.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/little-parakeet-bay",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.517,
+          -31.987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-little-armstrong-bay",
+      "properties": {
+        "name": "Little Armstrong Bay",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - north coast",
+        "description": "A quiet marine sanctuary cove with shallow edges and deeper reef further out.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "Rocky headlands offer shelter from southerly and easterly winds; depth increases offshore.",
+        "accessNote": "Shore access by bike or island bus. Marine sanctuary: no fishing or collecting.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/little-armstrong-bay",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.501,
+          -31.985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-rocky-bay",
+      "properties": {
+        "name": "Rocky Bay",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - west coast",
+        "description": "A quieter western bay with reef to explore in clear, calm conditions.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "Choose very low swell and light winds; the west coast is exposed to ocean swell.",
+        "accessNote": "Shore access by bike or island bus; bring water and supplies.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/rocky-bay",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.468,
+          -31.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-salmon-bay",
+      "properties": {
+        "name": "Salmon Bay",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - south coast",
+        "description": "A broad sandy bay with limestone reef pockets, seagrass and schooling fish.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "Use calm days; the south coast is generally better sheltered from northerly than southerly winds.",
+        "accessNote": "Shore access by bike or island bus; no facilities at the bay.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/salmon-bay",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.514,
+          -32.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-little-salmon-bay",
+      "properties": {
+        "name": "Little Salmon Bay Snorkel Trail",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - south coast",
+        "description": "A roughly 700 m loop with ten underwater interpretation points, reef fish and patches of pink coral.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "Allow about an hour for the full trail; choose calm water and stay within your swimming ability.",
+        "accessNote": "Shore access by bike or island bus. Part of Parker Point marine sanctuary; no fishing or collecting.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/little-salmon-bay-snorkel-trail",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.531,
+          -32.024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-parker-point",
+      "properties": {
+        "name": "Parker Point Snorkel Trail",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - southeast coast",
+        "description": "An approximately 800 m reef trail with 12 underwater plaques, pink coral and varied marine life.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "Allow about an hour. Choose low swell and sheltered water; the full trail is a substantial swim.",
+        "accessNote": "Shore access by bike or island bus. Marine sanctuary: no fishing or collecting.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/parker-point-snorkel-trail",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.539,
+          -32.027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "snorkelling-henrietta-rocks",
+      "properties": {
+        "name": "Henrietta Rocks / Shark wreck",
+        "category": "snorkelling",
+        "area": "Wadjemup / Rottnest Island - southeast coast",
+        "description": "The Shark barge wreck lies about 50 m offshore among reef and seagrass.",
+        "season": "Summer and autumn (December-May) for warmer water; possible year-round in suitable conditions.",
+        "conditions": "Often a better option in northerly winds; only enter when the shore and reef are calm.",
+        "accessNote": "Shore access by bike or island bus; there are no facilities at the beach.",
+        "sourceUrl": "https://www.rottnestisland.com/see-do/beaches-water-activities/henrietta-rocks",
+        "sourceName": "Rottnest Island Authority",
+        "reviewedAt": "2026-10-13",
+        "addressNote": "Approximate snorkelling area",
+        "coordinateSource": "Approximate named coastal area; see snorkelling-source-review.md",
+        "seasonBasis": "Regional warmer-water guidance; not a live conditions forecast",
+        "seasonSourceUrl": "https://www.rottnestisland.com/visit/weather/autumn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.549,
+          -32.014
+        ]
+      }
+    }
+  ]
+}

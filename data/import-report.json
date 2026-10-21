@@ -1,0 +1,3282 @@
+{
+  "communityWaterSource": {
+    "name": "Water in Perth",
+    "mapUrl": "https://www.google.com/maps/d/edit?mid=1n7QEPGo4tzhELbNhme4okzij4ao&usp=sharing",
+    "kmlUrl": "https://www.google.com/maps/d/kml?mid=1n7QEPGo4tzhELbNhme4okzij4ao&forcekml=1",
+    "sourcePlacemarkCount": 660
+  },
+  "communityWaterCandidateCount": 487,
+  "communityToiletCandidateCount": 152,
+  "communityMixedAmenityCount": 4,
+  "rejectedRecordCount": 25,
+  "classificationConflictCount": 6,
+  "classificationReview": [
+    {
+      "name": "DEC Campsite Water toilets shower",
+      "sourceStyle": "#icon-503-FF8277-nodesc",
+      "coordinates": [
+        116.1769786,
+        -31.9539192
+      ],
+      "savedAs": [
+        "water",
+        "toilet"
+      ]
+    },
+    {
+      "name": "Water + Toilets",
+      "sourceStyle": "#icon-503-FF8277-nodesc",
+      "coordinates": [
+        115.9436801,
+        -32.0448145
+      ],
+      "savedAs": [
+        "water",
+        "toilet"
+      ]
+    },
+    {
+      "name": "Toilet Block",
+      "sourceStyle": "#icon-503-FF8277-nodesc",
+      "coordinates": [
+        115.7321217,
+        -31.7990697
+      ],
+      "savedAs": [
+        "toilet"
+      ]
+    },
+    {
+      "name": "Water Fountain",
+      "sourceStyle": "#icon-503-4186F0-nodesc",
+      "coordinates": [
+        115.9527043,
+        -31.9061557
+      ],
+      "savedAs": [
+        "water"
+      ]
+    },
+    {
+      "name": "Point 545Toilet",
+      "sourceStyle": "#icon-503-FF8277-nodesc",
+      "coordinates": [
+        115.7616056,
+        -32.1369299
+      ],
+      "savedAs": [
+        "toilet"
+      ]
+    },
+    {
+      "name": "Toilet",
+      "sourceStyle": "#icon-503-FF8277-nodesc",
+      "coordinates": [
+        115.7341211,
+        -31.785244
+      ],
+      "savedAs": [
+        "toilet"
+      ]
+    }
+  ],
+  "cleaningRules": {
+    "perthCentre": {
+      "latitude": -31.9523,
+      "longitude": 115.8613
+    },
+    "maximumDistanceKm": 100.0,
+    "deduplication": "same rounded coordinates, normalised name, and source style",
+    "inactiveWaterMarkers": [
+      "marked-broken",
+      "marked-out-of-order",
+      "private-property"
+    ],
+    "toiletHandling": "community toilet candidates are audit inputs only; the deployable toilet dataset comes from the National Public Toilet Map"
+  },
+  "rejectionsByReason": {
+    "duplicate": 2,
+    "marked-out-of-order": 1,
+    "private-property": 1,
+    "marked-broken": 2,
+    "outside-perth-100km": 18,
+    "non-point-geometry": 1
+  },
+  "waterPointCount": 1239,
+  "officialWaterSources": {
+    "cityOfPerth": {
+      "name": "City of Perth Street Appurtenances",
+      "licence": "Creative Commons Attribution 4.0",
+      "datasetUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+      "serviceUrl": "https://services7.arcgis.com/v8XBa2naYNQGOjlG/arcgis/rest/services/INF_AST_APPURTENANCES_PT_PV/FeatureServer/0",
+      "queryUrl": "https://services7.arcgis.com/v8XBa2naYNQGOjlG/arcgis/rest/services/INF_AST_APPURTENANCES_PT_PV/FeatureServer/0/query?where=UNIT_TYPE+LIKE+%27DRINK%25%27&outFields=%2A&outSR=4326&f=geojson",
+      "sourceRecordCount": 79,
+      "selectedRecordCount": 79,
+      "unsupportedAssetTypeCount": 0,
+      "invalidRecordCount": 0,
+      "duplicateAssetIdCount": 0,
+      "latestSelectedAssetUpdate": "2026-06-25T07:08:49.035000Z",
+      "bottleFillingCount": 7,
+      "dogBowlCount": 10
+    },
+    "nationalPublicToiletMap": {
+      "name": "National Public Toilet Map",
+      "datasetUrl": "https://data.gov.au/data/dataset/national-public-toilet-map",
+      "licence": "Creative Commons Attribution 3.0 Australia",
+      "drinkingWaterRecordCount": 219
+    },
+    "openStreetMap": {
+      "name": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org",
+      "licence": "Open Data Commons Open Database License 1.0",
+      "licenceUrl": "https://www.openstreetmap.org/copyright",
+      "overpassEndpoint": "https://overpass-api.de/api/interpreter",
+      "osmTimestamp": "2026-10-11T12:06:50Z",
+      "sourceElementCount": 796,
+      "selectedPublicCandidateCount": 789,
+      "restrictedAccessExcludedCount": 6,
+      "unsupportedElementCount": 0,
+      "invalidOrOutsideScopeCount": 1,
+      "explicitPublicAccessCount": 201
+    }
+  },
+  "waterMerge": {
+    "method": "source-priority merge using nearest-point haversine distance",
+    "sourcePriority": [
+      "City of Perth Street Appurtenances",
+      "National Public Toilet Map",
+      "Water in Perth",
+      "OpenStreetMap"
+    ],
+    "crossSourceMatchDistanceMetres": 50.0,
+    "communityCandidateCount": 487,
+    "nationalToiletMapDrinkingWaterCount": 219,
+    "cityOfPerthDrinkingFountainCount": 79,
+    "nationalRecordsReplacedByCityCount": 1,
+    "communityRecordsReplacedByOfficialCount": 37,
+    "communityRecordsRetainedCount": 450,
+    "openStreetMapPublicCandidateCount": 789,
+    "openStreetMapRecordsMatchedToExistingCount": 297,
+    "openStreetMapRecordsAddingCoverageCount": 492,
+    "officialRecordsWithCommunityCorroborationCount": 36,
+    "officialRecordsAddingCoverageCount": 261,
+    "mergedRecordCount": 1239,
+    "mergedRecordsByPrimarySource": {
+      "Water in Perth": 450,
+      "City of Perth Street Appurtenances": 79,
+      "National Public Toilet Map": 218,
+      "OpenStreetMap": 492
+    },
+    "nationalRecordsReplacedByCity": [
+      {
+        "nationalFacilityId": "2994",
+        "nationalName": "Narrows Interchange",
+        "cityAssetId": "NarrowsIntCOPDRF05A",
+        "cityName": "Narrows Interchange drinking fountain",
+        "distanceMetres": 21
+      }
+    ],
+    "communityRecordsReplacedByOfficial": [
+      {
+        "communityId": "85d65c489fc8",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.863018,
+          -32.0080942
+        ],
+        "officialId": "nptm-water-1801",
+        "officialName": "McDougall Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 19
+      },
+      {
+        "communityId": "6e401204b46b",
+        "communityName": "Shelly foreshore Water Fountain",
+        "communityCoordinates": [
+          115.883196723225,
+          -32.0279808954266
+        ],
+        "officialId": "nptm-water-6626",
+        "officialName": "Shelley Foreshore",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 34
+      },
+      {
+        "communityId": "f125dddfdc2e",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.845626860792,
+          -31.9661319841019
+        ],
+        "officialId": "nptm-water-1804",
+        "officialName": "Narrows Abut",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 39
+      },
+      {
+        "communityId": "439d97ef3f1a",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.845911228971,
+          -31.9557359470347
+        ],
+        "officialId": "cop-water-Cliff St02DRF02E",
+        "officialName": "Cliff Street drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 10
+      },
+      {
+        "communityId": "70b8c7119141",
+        "communityName": "Water fountain",
+        "communityCoordinates": [
+          115.859837687094,
+          -31.9592517153925
+        ],
+        "officialId": "cop-water-RiversideFrShrDRF02A",
+        "officialName": "Riverside Foreshore drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 5
+      },
+      {
+        "communityId": "50823c235752",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.880430936813,
+          -31.9527266416802
+        ],
+        "officialId": "cop-water-VictoriaGdnsDRF03A",
+        "officialName": "Victoria Gardens drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 5
+      },
+      {
+        "communityId": "ddfd86afda8b",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.881750583649,
+          -31.9505509375413
+        ],
+        "officialId": "cop-water-MardalupParkDRF03A",
+        "officialName": "Mardalup Park drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 24
+      },
+      {
+        "communityId": "5ee1b054ea19",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.873231887817,
+          -31.9520712048526
+        ],
+        "officialId": "cop-water-ClaisebrookCkDRF03A",
+        "officialName": "Claisebrook Creek drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 5
+      },
+      {
+        "communityId": "66a3f23b1ea4",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.851216316223,
+          -31.9593899839583
+        ],
+        "officialId": "cop-water-NarrowsIntMRTDRF3A",
+        "officialName": "Narrows Interchange drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 16
+      },
+      {
+        "communityId": "f5324f37c44b",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.837892442942,
+          -31.9687208090151
+        ],
+        "officialId": "cop-water-MountsBayFrShrDRF02A",
+        "officialName": "Mounts Bay Foreshore drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "communityId": "0d9cbc916395",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.849628448486,
+          -31.9588256212468
+        ],
+        "officialId": "cop-water-NarrowsIntCOPDRF05A",
+        "officialName": "Narrows Interchange drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 25
+      },
+      {
+        "communityId": "5f41a4101c89",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.8980211,
+          -31.9536991
+        ],
+        "officialId": "nptm-water-17318",
+        "officialName": "Goodwood Parade Boat Ramp",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 9
+      },
+      {
+        "communityId": "0f8b20c17ec5",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.942760780454,
+          -31.9217208396149
+        ],
+        "officialId": "nptm-water-5399",
+        "officialName": "Garvey Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 30
+      },
+      {
+        "communityId": "625f4d18455e",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.92395181593,
+          -31.9688849574074
+        ],
+        "officialId": "nptm-water-5400",
+        "officialName": "Peet Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 23
+      },
+      {
+        "communityId": "ea5688f0219c",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.819279253483,
+          -31.9875024616517
+        ],
+        "officialId": "cop-water-JHAbrahamsResDRF04A",
+        "officialName": "JH Abrahams Reserve drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 23
+      },
+      {
+        "communityId": "b1feaf33db58",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.752273825456,
+          -32.0769087147434
+        ],
+        "officialId": "nptm-water-1573",
+        "officialName": "South Beach",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 34
+      },
+      {
+        "communityId": "239b2aeee49d",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.885822876789,
+          -31.9728917530876
+        ],
+        "officialId": "nptm-water-56382",
+        "officialName": "Raphael Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 22
+      },
+      {
+        "communityId": "7ca532e1ed35",
+        "communityName": "Drink Fountain",
+        "communityCoordinates": [
+          115.868226885796,
+          -31.9608236317024
+        ],
+        "officialId": "cop-water-LangleyParkDRF12A",
+        "officialName": "Langley Park drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 7
+      },
+      {
+        "communityId": "929c52ac440e",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.94973385334,
+          -31.9043847415624
+        ],
+        "officialId": "nptm-water-18064",
+        "officialName": "Bassendean Library",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 36
+      },
+      {
+        "communityId": "e80fc77b47f0",
+        "communityName": "Water Fountain - Tap",
+        "communityCoordinates": [
+          115.943146348,
+          -31.9214470802195
+        ],
+        "officialId": "nptm-water-5399",
+        "officialName": "Garvey Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 32
+      },
+      {
+        "communityId": "7a655de5c1ca",
+        "communityName": "Tap To Side Of Building for Water",
+        "communityCoordinates": [
+          116.0655838,
+          -31.9720008
+        ],
+        "officialId": "nptm-water-71",
+        "officialName": "Jorgensen Park - Kalamunda Community Centre",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 45
+      },
+      {
+        "communityId": "0fb0d2c10f26",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.8414209,
+          -31.9643735
+        ],
+        "officialId": "cop-water-MountsBayFrShrDRF03A",
+        "officialName": "Mounts Bay Foreshore drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 18
+      },
+      {
+        "communityId": "c652ddfb0cb1",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.8468933,
+          -31.9594474
+        ],
+        "officialId": "cop-water-NarrowsIntCOPDRF07A",
+        "officialName": "Narrows Interchange drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 5
+      },
+      {
+        "communityId": "a55194b00d3d",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.7667334,
+          -31.9254555
+        ],
+        "officialId": "nptm-water-54485",
+        "officialName": "Beecroft Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 29
+      },
+      {
+        "communityId": "dcaeeebba050",
+        "communityName": "Water Tap",
+        "communityCoordinates": [
+          115.7586211,
+          -31.937309
+        ],
+        "officialId": "nptm-water-5820",
+        "officialName": "City Beach Oval Pavilion",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 21
+      },
+      {
+        "communityId": "0205d22c4bbb",
+        "communityName": "Tap",
+        "communityCoordinates": [
+          115.7988355,
+          -32.0687869
+        ],
+        "officialId": "nptm-water-1570",
+        "officialName": "Samson Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 14
+      },
+      {
+        "communityId": "a14d28e14253",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.8800798,
+          -31.9640824
+        ],
+        "officialId": "cop-water-PointFraserDRF03A",
+        "officialName": "Point Fraser drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 25
+      },
+      {
+        "communityId": "0f125cc9c1fe",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.7563314,
+          -31.8979928
+        ],
+        "officialId": "nptm-water-10983",
+        "officialName": "Brighton Beach",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 32
+      },
+      {
+        "communityId": "9c6095c75b82",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.8076924,
+          -32.0010055
+        ],
+        "officialId": "nptm-water-3457",
+        "officialName": "Beaton Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 19
+      },
+      {
+        "communityId": "eca311e7ab45",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.8353068,
+          -31.9032219
+        ],
+        "officialId": "nptm-water-11038",
+        "officialName": "Grenville Reserve",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 42
+      },
+      {
+        "communityId": "2258f0304c9d",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.8428298,
+          -31.9444419
+        ],
+        "officialId": "cop-water-TotterdellParkDRF02A",
+        "officialName": "Totterdell Park drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 9
+      },
+      {
+        "communityId": "dbb3d6b64a46",
+        "communityName": "Water fountain",
+        "communityCoordinates": [
+          115.7881341,
+          -31.8469974
+        ],
+        "officialId": "nptm-water-65094",
+        "officialName": "Carine Regional Open Space",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 35
+      },
+      {
+        "communityId": "bc97b5ad3d01",
+        "communityName": "Water fountain",
+        "communityCoordinates": [
+          115.7003647,
+          -31.6857216
+        ],
+        "officialId": "nptm-water-34767",
+        "officialName": "Rosslare Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 5
+      },
+      {
+        "communityId": "300015dfbd8a",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.9017513,
+          -31.9991261
+        ],
+        "officialId": "nptm-water-12211",
+        "officialName": "Higgins Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 31
+      },
+      {
+        "communityId": "00744b4fa78f",
+        "communityName": "Water fountain",
+        "communityCoordinates": [
+          115.9059391,
+          -31.9644178
+        ],
+        "officialId": "nptm-water-12212",
+        "officialName": "JA Lee Reserve",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 21
+      },
+      {
+        "communityId": "19067ea237ff",
+        "communityName": "Water fountain",
+        "communityCoordinates": [
+          115.8768934,
+          -31.96301
+        ],
+        "officialId": "cop-water-OzoneResDRF03A",
+        "officialName": "Ozone Reserve drinking fountain",
+        "officialSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 28
+      },
+      {
+        "communityId": "01950a399e2c",
+        "communityName": "Water Fountain",
+        "communityCoordinates": [
+          115.7330608,
+          -32.3113995
+        ],
+        "officialId": "nptm-water-7765",
+        "officialName": "Safety Bay Foreshore Car Park",
+        "officialSource": "National Public Toilet Map",
+        "distanceMetres": 32
+      }
+    ],
+    "openStreetMapRecordsMatchedToExisting": [
+      {
+        "osmId": "node/10107223688",
+        "existingId": "854dac86d806",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/10167906377",
+        "existingId": "nptm-water-12255",
+        "existingName": "Basin",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 17
+      },
+      {
+        "osmId": "node/10167906378",
+        "existingId": "nptm-water-12255",
+        "existingName": "Basin",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/10167906379",
+        "existingId": "nptm-water-12255",
+        "existingName": "Basin",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 31
+      },
+      {
+        "osmId": "node/10167906380",
+        "existingId": "nptm-water-12241",
+        "existingName": "Visitor Centre",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 33
+      },
+      {
+        "osmId": "node/10167906382",
+        "existingId": "nptm-water-12241",
+        "existingName": "Visitor Centre",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/10185492512",
+        "existingId": "nptm-water-9010",
+        "existingName": "Falcon Bay",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 18
+      },
+      {
+        "osmId": "node/10243514309",
+        "existingId": "95ca37c0464b",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/10243514509",
+        "existingId": "nptm-water-12241",
+        "existingName": "Visitor Centre",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 25
+      },
+      {
+        "osmId": "node/10269158109",
+        "existingId": "nptm-water-2392",
+        "existingName": "Yanchep Lagoon",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 36
+      },
+      {
+        "osmId": "node/10269220027",
+        "existingId": "1adce3e8b499",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/10694196198",
+        "existingId": "f59a516c4b59",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/1074407215",
+        "existingId": "0d4e20bc251a",
+        "existingName": "Riverton Bridge Café Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/10760574431",
+        "existingId": "c7f5af1bb27f",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 37
+      },
+      {
+        "osmId": "node/10760574433",
+        "existingId": "35fc8b90a676",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/1083110793",
+        "existingId": "a2b3625402bf",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/10981844505",
+        "existingId": "8f5251dbdcb2",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/10981984803",
+        "existingId": "osm-water-node-10981970259",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/10989054507",
+        "existingId": "5a09c195355b",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 8
+      },
+      {
+        "osmId": "node/11062616935",
+        "existingId": "fc33b822ee3a",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/11062678944",
+        "existingId": "b09c982fb517",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/11062688601",
+        "existingId": "b09c982fb517",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/11074571833",
+        "existingId": "44faed945ac6",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 22
+      },
+      {
+        "osmId": "node/11074571849",
+        "existingId": "5f9a86ca0af8",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 26
+      },
+      {
+        "osmId": "node/1112670607",
+        "existingId": "osm-water-node-1112670561",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 31
+      },
+      {
+        "osmId": "node/11145401089",
+        "existingId": "osm-water-node-11145400675",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 17
+      },
+      {
+        "osmId": "node/11145401090",
+        "existingId": "osm-water-node-11145400675",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 23
+      },
+      {
+        "osmId": "node/11162107872",
+        "existingId": "nptm-water-409",
+        "existingName": "Bernard Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 36
+      },
+      {
+        "osmId": "node/11169377576",
+        "existingId": "cop-water-RoeSt03DRF01S",
+        "existingName": "Roe Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/11247444922",
+        "existingId": "osm-water-node-11247437159",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/11464638103",
+        "existingId": "osm-water-node-11464595919",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 46
+      },
+      {
+        "osmId": "node/11524094507",
+        "existingId": "239cb376262e",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/11524094508",
+        "existingId": "8c62495b787d",
+        "existingName": "Point 557",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 9
+      },
+      {
+        "osmId": "node/11581306011",
+        "existingId": "cop-water-PointFraserDRF03A",
+        "existingName": "Point Fraser drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/11593120457",
+        "existingId": "e3ef5a3257e3",
+        "existingName": "Point 186",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/11609686314",
+        "existingId": "b31133bd8958",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 43
+      },
+      {
+        "osmId": "node/11609713872",
+        "existingId": "b31133bd8958",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 35
+      },
+      {
+        "osmId": "node/11645584033",
+        "existingId": "40be3025bc24",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/11775002632",
+        "existingId": "0c8c227497ed",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 9
+      },
+      {
+        "osmId": "node/11777744288",
+        "existingId": "acdddaa1bd64",
+        "existingName": "Water Fountain - Tap",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 23
+      },
+      {
+        "osmId": "node/11777744291",
+        "existingId": "da7c4fc12555",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/11846434570",
+        "existingId": "b20b9e92b2aa",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 36
+      },
+      {
+        "osmId": "node/11848697895",
+        "existingId": "0fa9d2e3ace4",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 39
+      },
+      {
+        "osmId": "node/11848697898",
+        "existingId": "0fa9d2e3ace4",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/12128896025",
+        "existingId": "nptm-water-12237",
+        "existingName": "Longreach Bay",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/12128896027",
+        "existingId": "nptm-water-12237",
+        "existingName": "Longreach Bay",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/12133226369",
+        "existingId": "cc99a6391ad7",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/12237910022",
+        "existingId": "cop-water-StirlingGdnsDRF06A",
+        "existingName": "Stirling Gardens drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/12291036067",
+        "existingId": "osm-water-node-12290976191",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/12291199694",
+        "existingId": "osm-water-node-12290976191",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 25
+      },
+      {
+        "osmId": "node/12403568805",
+        "existingId": "d835bd51fa54",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/12405901016",
+        "existingId": "nptm-water-12212",
+        "existingName": "JA Lee Reserve",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/12451210411",
+        "existingId": "85a876f644fa",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 40
+      },
+      {
+        "osmId": "node/1248344324",
+        "existingId": "297bb9663735",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/12536456282",
+        "existingId": "1038fceecb6c",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 18
+      },
+      {
+        "osmId": "node/12536456420",
+        "existingId": "292a2321555c",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/12541801134",
+        "existingId": "3f568cbca128",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 20
+      },
+      {
+        "osmId": "node/12541801151",
+        "existingId": "3f568cbca128",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/12556132427",
+        "existingId": "f102b9d74772",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/12561359936",
+        "existingId": "6565d14f8fc9",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/12578771115",
+        "existingId": "osm-water-node-12578771109",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 35
+      },
+      {
+        "osmId": "node/12689367180",
+        "existingId": "7ba5b0188b71",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/1269970349",
+        "existingId": "nptm-water-56382",
+        "existingName": "Raphael Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 15
+      },
+      {
+        "osmId": "node/1270816589",
+        "existingId": "nptm-water-3457",
+        "existingName": "Beaton Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 21
+      },
+      {
+        "osmId": "node/12717801338",
+        "existingId": "osm-water-node-12717801330",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 38
+      },
+      {
+        "osmId": "node/1272878086",
+        "existingId": "3c2fd4256e1c",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 40
+      },
+      {
+        "osmId": "node/12732319891",
+        "existingId": "osm-water-node-12732319890",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 34
+      },
+      {
+        "osmId": "node/12734012359",
+        "existingId": "613e33e3bc58",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 37
+      },
+      {
+        "osmId": "node/12759436346",
+        "existingId": "7568dadaf00f",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/12765734114",
+        "existingId": "356fc1393dbd",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 8
+      },
+      {
+        "osmId": "node/12774741762",
+        "existingId": "nptm-water-53237",
+        "existingName": "Cantwell Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/12785163092",
+        "existingId": "e314ce7f4163",
+        "existingName": "Water Fountain Only",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/12888336674",
+        "existingId": "cop-water-RussellSqDRF07A",
+        "existingName": "Russell Square drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/13122749758",
+        "existingId": "157684d76deb",
+        "existingName": "Deepwater Point Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/13186159849",
+        "existingId": "osm-water-node-13186159848",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/13186159850",
+        "existingId": "osm-water-node-13186159848",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 37
+      },
+      {
+        "osmId": "node/13200241702",
+        "existingId": "9668973b7cba",
+        "existingName": "Macaulay park fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/13235976986",
+        "existingId": "2deda3110eea",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 23
+      },
+      {
+        "osmId": "node/13246210788",
+        "existingId": "nptm-water-67",
+        "existingName": "Pickering Brook",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 44
+      },
+      {
+        "osmId": "node/13257010962",
+        "existingId": "osm-water-node-13257010952",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 39
+      },
+      {
+        "osmId": "node/13337691520",
+        "existingId": "bcffa2a759db",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/13341994097",
+        "existingId": "2a9d75399122",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/13368594025",
+        "existingId": "045726a77c98",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/13399242948",
+        "existingId": "1fc82c6759bc",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 32
+      },
+      {
+        "osmId": "node/13402120371",
+        "existingId": "a43fe99d7259",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 41
+      },
+      {
+        "osmId": "node/13407014696",
+        "existingId": "nptm-water-12239",
+        "existingName": "Digby Drive",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/13413463901",
+        "existingId": "b4138a773432",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 49
+      },
+      {
+        "osmId": "node/13417907122",
+        "existingId": "nptm-water-53651",
+        "existingName": "Moore Street",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/13432310401",
+        "existingId": "osm-water-node-13432051104",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 23
+      },
+      {
+        "osmId": "node/13434443701",
+        "existingId": "cop-water-ForrestPl01DRF03W",
+        "existingName": "Forrest Place drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/13461845451",
+        "existingId": "cop-water-VictoriaSq06DRF02W",
+        "existingName": "Victoria Square drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/13475468448",
+        "existingId": "nptm-water-12211",
+        "existingName": "Higgins Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 32
+      },
+      {
+        "osmId": "node/13481828646",
+        "existingId": "nptm-water-61789",
+        "existingName": "Cannington Station",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/13511465120",
+        "existingId": "cop-water-StGeorgesTce14DRF02N",
+        "existingName": "St Georges Terrace drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/13518809088",
+        "existingId": "cop-water-HaySt23DRF04S",
+        "existingName": "Hay Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/13525297286",
+        "existingId": "a43fe99d7259",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 41
+      },
+      {
+        "osmId": "node/13578247920",
+        "existingId": "nptm-water-7765",
+        "existingName": "Safety Bay Foreshore Car Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 31
+      },
+      {
+        "osmId": "node/13626138513",
+        "existingId": "cop-water-WellingtonSqDRF04A",
+        "existingName": "Wellington Square drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/13626146138",
+        "existingId": "cop-water-WellingtonSqDRF03A",
+        "existingName": "Wellington Square drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/13626146147",
+        "existingId": "cop-water-WellingtonSqDRF05A",
+        "existingName": "Wellington Square drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/13792600718",
+        "existingId": "cop-water-HaySt19DRF01N",
+        "existingName": "Hay Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/13911565095",
+        "existingId": "0762101aadb0",
+        "existingName": "Punto 656",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 20
+      },
+      {
+        "osmId": "node/13998712549",
+        "existingId": "cop-water-MountsBayFrShrDRF03A",
+        "existingName": "Mounts Bay Foreshore drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/14133292152",
+        "existingId": "75b3ccea13a0",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 15
+      },
+      {
+        "osmId": "node/14170136566",
+        "existingId": "462c10c2dd88",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/14173238217",
+        "existingId": "cop-water-HaySt13DRF02S",
+        "existingName": "Hay Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 0
+      },
+      {
+        "osmId": "node/14177190011",
+        "existingId": "5ab0be87bc4d",
+        "existingName": "Goollelal Drive fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/14177240674",
+        "existingId": "ecb1dd462bbe",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/14180168131",
+        "existingId": "cop-water-HaigParkCircleDRF04A",
+        "existingName": "Haig Park Circle drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/14244687498",
+        "existingId": "osm-water-node-11813450672",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 40
+      },
+      {
+        "osmId": "node/14270464655",
+        "existingId": "338d642e7fa6",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 23
+      },
+      {
+        "osmId": "node/1504407656",
+        "existingId": "78e0c140840f",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/1618482856",
+        "existingId": "ecd7085d51c2",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/1618482857",
+        "existingId": "ed65697c4b2f",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/1640999166",
+        "existingId": "5404cebc324c",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 49
+      },
+      {
+        "osmId": "node/1646895221",
+        "existingId": "50a0de9b336f",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 12
+      },
+      {
+        "osmId": "node/1721403709",
+        "existingId": "ae1b20d19954",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 12
+      },
+      {
+        "osmId": "node/1724220588",
+        "existingId": "osm-water-node-1646895204",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/1954870514",
+        "existingId": "b6805faa0ea8",
+        "existingName": "Water + Toilets",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 41
+      },
+      {
+        "osmId": "node/1954871025",
+        "existingId": "8d6f5ab8c93e",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 11
+      },
+      {
+        "osmId": "node/1964039867",
+        "existingId": "3b59f9a0e1e3",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/2045786504",
+        "existingId": "3453920dfe22",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 18
+      },
+      {
+        "osmId": "node/2071876172",
+        "existingId": "f6a2490a8044",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 26
+      },
+      {
+        "osmId": "node/2106683913",
+        "existingId": "e4aa5e586e10",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 26
+      },
+      {
+        "osmId": "node/2106690676",
+        "existingId": "4a3c1570b979",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 26
+      },
+      {
+        "osmId": "node/2131788822",
+        "existingId": "cf90dbe09037",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/2221053837",
+        "existingId": "e7fa08894572",
+        "existingName": "Riverton Bride Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/2221053848",
+        "existingId": "52640ea46c2b",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 18
+      },
+      {
+        "osmId": "node/2221053853",
+        "existingId": "c2f6e3058620",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 9
+      },
+      {
+        "osmId": "node/2221053865",
+        "existingId": "nptm-water-6626",
+        "existingName": "Shelley Foreshore",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 47
+      },
+      {
+        "osmId": "node/2221053881",
+        "existingId": "91dc53076a24",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/2221053884",
+        "existingId": "7f4e4c99daed",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/2221053889",
+        "existingId": "690d8c14d38d",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/2293380316",
+        "existingId": "52c34db92455",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/2293380385",
+        "existingId": "b58513d53db3",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/2293542495",
+        "existingId": "7c6bc8e29503",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/2347688518",
+        "existingId": "c5a5aa86143e",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/2351681252",
+        "existingId": "cop-water-SupremeCtGdnsDRF06A",
+        "existingName": "Supreme Court Gardens drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/2351681254",
+        "existingId": "cop-water-VictoriaSq04DRF02S",
+        "existingName": "Victoria Square drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 11
+      },
+      {
+        "osmId": "node/2380946716",
+        "existingId": "0ac30f7cce76",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 11
+      },
+      {
+        "osmId": "node/2383978430",
+        "existingId": "cop-water-NarrowsIntCOPDRF07A",
+        "existingName": "Narrows Interchange drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/2383978432",
+        "existingId": "cop-water-NarrowsIntCOPDRF05A",
+        "existingName": "Narrows Interchange drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/2383978433",
+        "existingId": "cop-water-NarrowsIntMRTDRF3A",
+        "existingName": "Narrows Interchange drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/2390338987",
+        "existingId": "nptm-water-43471",
+        "existingName": "Rio Tinto Naturescape",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 48
+      },
+      {
+        "osmId": "node/2407552201",
+        "existingId": "7c2081ba002c",
+        "existingName": "Water Tap",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 17
+      },
+      {
+        "osmId": "node/2409387284",
+        "existingId": "88842e45a883",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/2441491834",
+        "existingId": "a417465cc8fe",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 29
+      },
+      {
+        "osmId": "node/2463521491",
+        "existingId": "cop-water-HaySt25DRF02S",
+        "existingName": "Hay Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 8
+      },
+      {
+        "osmId": "node/2463521505",
+        "existingId": "cop-water-HaySt23DRF03S",
+        "existingName": "Hay Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/2466505659",
+        "existingId": "c66e6700f079",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/2473462383",
+        "existingId": "21757cd3dc35",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/2475108777",
+        "existingId": "c85ee511c36c",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/2495446854",
+        "existingId": "404a2f91862a",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/2530750544",
+        "existingId": "05e4b2d92d0c",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/2645764080",
+        "existingId": "8d7ff4f8e2c3",
+        "existingName": "Kent Street Weir Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/2663319824",
+        "existingId": "160f022d8bdd",
+        "existingName": "Ferndale Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 9
+      },
+      {
+        "osmId": "node/2694487443",
+        "existingId": "338d642e7fa6",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/2694487870",
+        "existingId": "adab143567ba",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/2705467718",
+        "existingId": "05fb94df7efd",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/2708129637",
+        "existingId": "e369ae47362d",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/2730953054",
+        "existingId": "c42b0c7e487b",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 25
+      },
+      {
+        "osmId": "node/2947657303",
+        "existingId": "7e666a3a50a8",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/3039494293",
+        "existingId": "e8197010bcc1",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/3039494437",
+        "existingId": "16e5802784aa",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 8
+      },
+      {
+        "osmId": "node/3246729310",
+        "existingId": "cop-water-MurraySt29DRF02S",
+        "existingName": "Murray Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/3327876325",
+        "existingId": "fd51cdd1e978",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/3393553454",
+        "existingId": "cop-water-LangleyParkDRF18A",
+        "existingName": "Langley Park drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/3442466356",
+        "existingId": "bf93904d92d6",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/3617531868",
+        "existingId": "cop-water-MountsBayFrShrDRF03A",
+        "existingName": "Mounts Bay Foreshore drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 12
+      },
+      {
+        "osmId": "node/3676093473",
+        "existingId": "nptm-water-65504",
+        "existingName": "Aspire Lounge T1 International",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/3794329192",
+        "existingId": "5d44e8aec221",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/3837222633",
+        "existingId": "cop-water-PiazzaNaniDRF03A",
+        "existingName": "Piazza Nani drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/3866861057",
+        "existingId": "a62184258d2b",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 29
+      },
+      {
+        "osmId": "node/3890455162",
+        "existingId": "ced3d1e8fcda",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/3890455163",
+        "existingId": "2dc0fa1fb76d",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/3923025770",
+        "existingId": "055709fefaee",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 20
+      },
+      {
+        "osmId": "node/3926408852",
+        "existingId": "ce5e4c00a5db",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 8
+      },
+      {
+        "osmId": "node/3959052976",
+        "existingId": "5e18eea06023",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/4008724068",
+        "existingId": "cop-water-EastPerthFrShrDRF02A",
+        "existingName": "East Perth Foreshore drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/4008724069",
+        "existingId": "cop-water-RiversideFrShrDRF02A",
+        "existingName": "Riverside Foreshore drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 33
+      },
+      {
+        "osmId": "node/4008724070",
+        "existingId": "5f3393f3d6a1",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/4024827236",
+        "existingId": "nptm-water-11001",
+        "existingName": "Peasholm Dog Beach",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 11
+      },
+      {
+        "osmId": "node/4030807078",
+        "existingId": "nptm-water-65102",
+        "existingName": "Terminal 1 International Arrivals Near Baggage Reclaim",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 34
+      },
+      {
+        "osmId": "node/4197216772",
+        "existingId": "706a40244164",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 11
+      },
+      {
+        "osmId": "node/4213383444",
+        "existingId": "67c73493b5c7",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/4308176901",
+        "existingId": "dfb2622a0e69",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/4438944011",
+        "existingId": "ab55710ba30d",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/4461778246",
+        "existingId": "7bcaa73bfa10",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 23
+      },
+      {
+        "osmId": "node/4464886562",
+        "existingId": "be2879575cac",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 15
+      },
+      {
+        "osmId": "node/4472384367",
+        "existingId": "441b9dc7a667",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 9
+      },
+      {
+        "osmId": "node/4476119986",
+        "existingId": "cop-water-RoeSt03DRF01S",
+        "existingName": "Roe Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 50
+      },
+      {
+        "osmId": "node/4513442028",
+        "existingId": "2690722f20d2",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 37
+      },
+      {
+        "osmId": "node/4525911177",
+        "existingId": "c069fff668ed",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/4568253069",
+        "existingId": "nptm-water-3460",
+        "existingName": "John Leckie Pavillion",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 26
+      },
+      {
+        "osmId": "node/4569635698",
+        "existingId": "041fb48557a6",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 45
+      },
+      {
+        "osmId": "node/4573350893",
+        "existingId": "nptm-water-65146",
+        "existingName": "Terminal 1 Domestic - Ground Floor - Arrivals Hall",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 49
+      },
+      {
+        "osmId": "node/4576741450",
+        "existingId": "e311c48a6fd7",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/465125946",
+        "existingId": "192b83036778",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 18
+      },
+      {
+        "osmId": "node/4717604990",
+        "existingId": "daf29edac1d3",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/4914725307",
+        "existingId": "nptm-water-54203",
+        "existingName": "Erskine Foreshore",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 38
+      },
+      {
+        "osmId": "node/5070852697",
+        "existingId": "cop-water-WellingtonGdnsDRF01N",
+        "existingName": "Wellington Gardens drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/5070886169",
+        "existingId": "cop-water-JamesSt13DRF01A",
+        "existingName": "James Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/5211573636",
+        "existingId": "cop-water-MurraySt27DRF02S",
+        "existingName": "Murray Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/5211573637",
+        "existingId": "cop-water-StGeorgesTce14DRF01N",
+        "existingName": "St Georges Terrace drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/5224261607",
+        "existingId": "8813a8485c3b",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/5266913783",
+        "existingId": "cop-water-AberdeenSt13DRF01S",
+        "existingName": "Aberdeen Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/5268939054",
+        "existingId": "nptm-water-65149",
+        "existingName": "Terminal 1 Domestic - Level 1 - Near Gate 49",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/5336057022",
+        "existingId": "osm-water-node-531307590",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 47
+      },
+      {
+        "osmId": "node/5374969480",
+        "existingId": "cop-water-HayThomasResDRF02A",
+        "existingName": "Hay Thomas Reserve drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/5391662114",
+        "existingId": "f600a4944e67",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/5404465334",
+        "existingId": "46be0eddc10e",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 11
+      },
+      {
+        "osmId": "node/5404468466",
+        "existingId": "6b63d3e9740e",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/5404469832",
+        "existingId": "7c6bc8e29503",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 38
+      },
+      {
+        "osmId": "node/555854366",
+        "existingId": "cop-water-TotterdellParkDRF02A",
+        "existingName": "Totterdell Park drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 20
+      },
+      {
+        "osmId": "node/556237412",
+        "existingId": "cop-water-HaroldBoasGdnsDRF05A",
+        "existingName": "Harold Boas Gardens drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/5785371008",
+        "existingId": "1309d098a9f2",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/5835432531",
+        "existingId": "c66e6700f079",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 32
+      },
+      {
+        "osmId": "node/5968332638",
+        "existingId": "osm-water-node-5968332637",
+        "existingName": "filtered",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 29
+      },
+      {
+        "osmId": "node/597298178",
+        "existingId": "55f657ea100e",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/599658376",
+        "existingId": "nptm-water-10981",
+        "existingName": "Scarborough - Sunset Hill",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 43
+      },
+      {
+        "osmId": "node/599658399",
+        "existingId": "c5f04b277754",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/599658546",
+        "existingId": "11c294cddfb4",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/6024429109",
+        "existingId": "bf3563859b67",
+        "existingName": "Water Foundtain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 28
+      },
+      {
+        "osmId": "node/6222272386",
+        "existingId": "db86acf55a67",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/6243829487",
+        "existingId": "6deeea2c80ff",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/6287475085",
+        "existingId": "nptm-water-65147",
+        "existingName": "Terminal 1 Domestic - Level 1 - Security Screening Area",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 37
+      },
+      {
+        "osmId": "node/6287730685",
+        "existingId": "nptm-water-1561",
+        "existingName": "Esplanade Reserve 1",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 13
+      },
+      {
+        "osmId": "node/6346578299",
+        "existingId": "0efe9742155c",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 9
+      },
+      {
+        "osmId": "node/6359635188",
+        "existingId": "nptm-water-59850",
+        "existingName": "Riverton Library",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 50
+      },
+      {
+        "osmId": "node/6372027273",
+        "existingId": "nptm-water-59850",
+        "existingName": "Riverton Library",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 25
+      },
+      {
+        "osmId": "node/638450623",
+        "existingId": "7b1ae3d87acb",
+        "existingName": "Point 335",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 6
+      },
+      {
+        "osmId": "node/6720389976",
+        "existingId": "687eb31aedaf",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/6880443691",
+        "existingId": "nptm-water-5399",
+        "existingName": "Garvey Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 33
+      },
+      {
+        "osmId": "node/6928844885",
+        "existingId": "745153918137",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 22
+      },
+      {
+        "osmId": "node/7034870730",
+        "existingId": "858f234c47ef",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/706017920",
+        "existingId": "nptm-water-1573",
+        "existingName": "South Beach",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 40
+      },
+      {
+        "osmId": "node/715421846",
+        "existingId": "96ddc4b6eeb4",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 25
+      },
+      {
+        "osmId": "node/724209425",
+        "existingId": "118c5dc30ffe",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 11
+      },
+      {
+        "osmId": "node/7428186885",
+        "existingId": "8b5157090576",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 38
+      },
+      {
+        "osmId": "node/7558183524",
+        "existingId": "6b993568e50e",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 25
+      },
+      {
+        "osmId": "node/7605541324",
+        "existingId": "99e997cfde46",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/7648474070",
+        "existingId": "osm-water-node-2383978431",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 36
+      },
+      {
+        "osmId": "node/7740222828",
+        "existingId": "07aa9c916579",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/7834777883",
+        "existingId": "osm-water-node-7834777882",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/7834777884",
+        "existingId": "osm-water-node-7834777882",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/7834791385",
+        "existingId": "osm-water-node-7834777882",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/7834791386",
+        "existingId": "osm-water-node-7834777882",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/7834791387",
+        "existingId": "osm-water-node-7834777882",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/7834791388",
+        "existingId": "osm-water-node-7834777882",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/8027091858",
+        "existingId": "d0d9255e7091",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/8148108520",
+        "existingId": "defdbab03585",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 22
+      },
+      {
+        "osmId": "node/8148125788",
+        "existingId": "defdbab03585",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 20
+      },
+      {
+        "osmId": "node/8148262222",
+        "existingId": "cop-water-Cliff St02DRF02E",
+        "existingName": "Cliff Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/8421837292",
+        "existingId": "f328ab1e5199",
+        "existingName": "Dianella open space fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 15
+      },
+      {
+        "osmId": "node/8421856988",
+        "existingId": "osm-water-node-12091228055",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 9
+      },
+      {
+        "osmId": "node/8442291528",
+        "existingId": "03774f80a790",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 15
+      },
+      {
+        "osmId": "node/8442291529",
+        "existingId": "41296f543a9c",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/8442295821",
+        "existingId": "ff91c6b1f62f",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/849546593",
+        "existingId": "a96f9f0414df",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 7
+      },
+      {
+        "osmId": "node/8566745448",
+        "existingId": "658589ef47ca",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 16
+      },
+      {
+        "osmId": "node/860203540",
+        "existingId": "dc0bfc45d15e",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 20
+      },
+      {
+        "osmId": "node/8654292881",
+        "existingId": "osm-water-node-10167906381",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 20
+      },
+      {
+        "osmId": "node/9013734969",
+        "existingId": "4a2e7dea7eda",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/9016658136",
+        "existingId": "83513e7e7832",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 30
+      },
+      {
+        "osmId": "node/9018681815",
+        "existingId": "a14887a52b15",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 2
+      },
+      {
+        "osmId": "node/9021622440",
+        "existingId": "nptm-water-5824",
+        "existingName": "Henderson Park (south east corner)",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 45
+      },
+      {
+        "osmId": "node/907807825",
+        "existingId": "f6fbb0bf1d40",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 32
+      },
+      {
+        "osmId": "node/9093387920",
+        "existingId": "nptm-water-46403",
+        "existingName": "Grantham Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/9110625718",
+        "existingId": "osm-water-node-9090691256",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 36
+      },
+      {
+        "osmId": "node/9217872535",
+        "existingId": "51cc13cfa6f6",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/931490426",
+        "existingId": "nptm-water-53225",
+        "existingName": "Walyalup Civic Centre",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 43
+      },
+      {
+        "osmId": "node/9363076360",
+        "existingId": "osm-water-node-9363076359",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 21
+      },
+      {
+        "osmId": "node/9363076361",
+        "existingId": "osm-water-node-9363076359",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 44
+      },
+      {
+        "osmId": "node/9363076362",
+        "existingId": "osm-water-node-9363076359",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 38
+      },
+      {
+        "osmId": "node/9371397361",
+        "existingId": "osm-water-node-9371397360",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 1
+      },
+      {
+        "osmId": "node/9371397363",
+        "existingId": "osm-water-node-10240128169",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 14
+      },
+      {
+        "osmId": "node/9371397364",
+        "existingId": "osm-water-node-9309942042",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 24
+      },
+      {
+        "osmId": "node/9371397365",
+        "existingId": "osm-water-node-9309942042",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 35
+      },
+      {
+        "osmId": "node/9371397381",
+        "existingId": "osm-water-node-10240128169",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 31
+      },
+      {
+        "osmId": "node/9371397382",
+        "existingId": "osm-water-node-10240128169",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 28
+      },
+      {
+        "osmId": "node/9417046294",
+        "existingId": "48069b1f56bf",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 46
+      },
+      {
+        "osmId": "node/9417046295",
+        "existingId": "4ff072d3b193",
+        "existingName": "Point 651",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/9417092134",
+        "existingId": "2ba7e5ede88b",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 10
+      },
+      {
+        "osmId": "node/9596818968",
+        "existingId": "0c7709e0ecd1",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 19
+      },
+      {
+        "osmId": "node/9641157862",
+        "existingId": "eafb4dc8f8cf",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 29
+      },
+      {
+        "osmId": "node/9651805197",
+        "existingId": "nptm-water-18236",
+        "existingName": "Napier Street",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 15
+      },
+      {
+        "osmId": "node/9692664756",
+        "existingId": "fb8300440490",
+        "existingName": "Water fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 8
+      },
+      {
+        "osmId": "node/9706319619",
+        "existingId": "3cd5f26d7e0b",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/9706483546",
+        "existingId": "6fcfb14b67e7",
+        "existingName": "Forrest park fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 31
+      },
+      {
+        "osmId": "node/9736379617",
+        "existingId": "52e1d2cddf56",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/9765665746",
+        "existingId": "cop-water-KingSt06DRF02A",
+        "existingName": "King Street drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 3
+      },
+      {
+        "osmId": "node/9776467919",
+        "existingId": "nptm-water-3457",
+        "existingName": "Beaton Park",
+        "existingSource": "National Public Toilet Map",
+        "distanceMetres": 36
+      },
+      {
+        "osmId": "node/9802833505",
+        "existingId": "osm-water-node-10931099524",
+        "existingName": "Drinking water",
+        "existingSource": "OpenStreetMap",
+        "distanceMetres": 4
+      },
+      {
+        "osmId": "node/9840473186",
+        "existingId": "3d52bf69d514",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 29
+      },
+      {
+        "osmId": "node/9863552115",
+        "existingId": "56fa1cd1f495",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 5
+      },
+      {
+        "osmId": "node/9934919263",
+        "existingId": "75b3ccea13a0",
+        "existingName": "Water Fountain",
+        "existingSource": "Water in Perth",
+        "distanceMetres": 22
+      },
+      {
+        "osmId": "node/9951917419",
+        "existingId": "cop-water-VictoriaGdnsDRF03A",
+        "existingName": "Victoria Gardens drinking fountain",
+        "existingSource": "City of Perth Street Appurtenances",
+        "distanceMetres": 4
+      }
+    ]
+  },
+  "toiletPointCount": 1388,
+  "toiletSource": {
+    "name": "National Public Toilet Map",
+    "licence": "Creative Commons Attribution 3.0 Australia",
+    "resourceId": "34076296-6692-4e30-b627-67b7c4eb1027",
+    "datasetUrl": "https://data.gov.au/data/dataset/national-public-toilet-map",
+    "downloadUrl": "https://data.gov.au/data/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/resource/34076296-6692-4e30-b627-67b7c4eb1027/download/toiletmapexport_261001_074429.csv",
+    "lastModified": "2026-09-30T23:00:37.056551",
+    "resourceSizeBytes": 12085106,
+    "packageMetadataModified": "2026-09-30T23:01:32.403999",
+    "sourceRecordCount": 25624,
+    "selectedRecordCount": 1388,
+    "outsidePerth100kmOrNonWaCount": 24236,
+    "invalidCoordinateCount": 0,
+    "missingFacilityIdCount": 0,
+    "duplicateFacilityIdCount": 0,
+    "accessibleCount": 934,
+    "babyChangeCount": 323,
+    "drinkingWaterCount": 219,
+    "showerCount": 152
+  },
+  "toiletValidation": {
+    "method": "nearest point by haversine distance",
+    "matchDistanceMetres": 100.0,
+    "nearbyReviewDistanceMetres": 500.0,
+    "communityRecordCount": 152,
+    "matchedWithin100mCount": 124,
+    "nearby100mTo500mCount": 18,
+    "unmatchedBeyond500mCount": 10,
+    "officialRecordsWithCommunityMatchCount": 128,
+    "officialRecordsAddingCoverageCount": 1260,
+    "communityRecordsForReview": [
+      {
+        "communityName": "Point 545Toilet",
+        "communityCoordinates": [
+          115.7616056,
+          -32.1369299
+        ],
+        "nearestOfficialFacilityId": "59295",
+        "nearestOfficialName": "Woodman Point Park",
+        "distanceMetres": 1362
+      },
+      {
+        "communityName": "Toilet during opening hours",
+        "communityCoordinates": [
+          115.7758156,
+          -31.7951766
+        ],
+        "nearestOfficialFacilityId": "62732",
+        "nearestOfficialName": "Warrandyte Park",
+        "distanceMetres": 1184
+      },
+      {
+        "communityName": "Toilet",
+        "communityCoordinates": [
+          115.9879151,
+          -31.7928485
+        ],
+        "nearestOfficialFacilityId": "65941",
+        "nearestOfficialName": "BP Henley Brook",
+        "distanceMetres": 971
+      },
+      {
+        "communityName": "DEC Campsite Water toilets shower",
+        "communityCoordinates": [
+          116.1769786,
+          -31.9539192
+        ],
+        "nearestOfficialFacilityId": "8952",
+        "nearestOfficialName": "Mundaring Weir 3",
+        "distanceMetres": 905
+      },
+      {
+        "communityName": "Toilet block",
+        "communityCoordinates": [
+          115.6960232,
+          -31.6785333
+        ],
+        "nearestOfficialFacilityId": "34767",
+        "nearestOfficialName": "Rosslare Park",
+        "distanceMetres": 896
+      },
+      {
+        "communityName": "Water + Toilets",
+        "communityCoordinates": [
+          115.9436801,
+          -32.0448145
+        ],
+        "nearestOfficialFacilityId": "65135",
+        "nearestOfficialName": "Thornlie Train Station",
+        "distanceMetres": 858
+      },
+      {
+        "communityName": "Toilet",
+        "communityCoordinates": [
+          115.9437091,
+          -32.0447958
+        ],
+        "nearestOfficialFacilityId": "65135",
+        "nearestOfficialName": "Thornlie Train Station",
+        "distanceMetres": 856
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          115.8752465,
+          -32.1291436
+        ],
+        "nearestOfficialFacilityId": "62601",
+        "nearestOfficialName": "Bunnings Cockburn",
+        "distanceMetres": 731
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          116.0203296,
+          -32.1127678
+        ],
+        "nearestOfficialFacilityId": "18319",
+        "nearestOfficialName": "Stargate Shopping Centre Kelmscott",
+        "distanceMetres": 567
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          115.819898843765,
+          -32.0282844215072
+        ],
+        "nearestOfficialFacilityId": "46143",
+        "nearestOfficialName": "Ampol Woolworths Melville",
+        "distanceMetres": 548
+      },
+      {
+        "communityName": "Toilet",
+        "communityCoordinates": [
+          115.7787044,
+          -31.8053299
+        ],
+        "nearestOfficialFacilityId": "63986",
+        "nearestOfficialName": "Gibson Park (UAT only)",
+        "distanceMetres": 458
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          115.8378053,
+          -32.0946481
+        ],
+        "nearestOfficialFacilityId": "9367",
+        "nearestOfficialName": "Bibra Lake Community Centre",
+        "distanceMetres": 415
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          115.8779103,
+          -31.9362902
+        ],
+        "nearestOfficialFacilityId": "1458",
+        "nearestOfficialName": "Forrest Park",
+        "distanceMetres": 407
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          115.8587757,
+          -31.9988469
+        ],
+        "nearestOfficialFacilityId": "13391",
+        "nearestOfficialName": "Ampol Como",
+        "distanceMetres": 336
+      },
+      {
+        "communityName": "Toilet block",
+        "communityCoordinates": [
+          115.784917473793,
+          -31.8487359992576
+        ],
+        "nearestOfficialFacilityId": "65094",
+        "nearestOfficialName": "Carine Regional Open Space",
+        "distanceMetres": 334
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          115.891132950783,
+          -31.9591351109051
+        ],
+        "nearestOfficialFacilityId": "66322",
+        "nearestOfficialName": "Burswood Park",
+        "distanceMetres": 329
+      },
+      {
+        "communityName": "Toilet Block",
+        "communityCoordinates": [
+          115.9720912,
+          -31.8927613
+        ],
+        "nearestOfficialFacilityId": "10480",
+        "nearestOfficialName": "Lilac Hill Park",
+        "distanceMetres": 282
+      },
+      {
+        "communityName": "Water fountain & toilet block",
+        "communityCoordinates": [
+          115.8307967,
+          -31.9333961
+        ],
+        "nearestOfficialFacilityId": "58668",
+        "nearestOfficialName": "South East Lake Monger",
+        "distanceMetres": 273
+      },
+      {
+        "communityName": "Toilet block",
+        "communityCoordinates": [
+          115.881601,
+          -32.0561683
+        ],
+        "nearestOfficialFacilityId": "36123",
+        "nearestOfficialName": "BP Burrendah Self Serve",
+        "distanceMetres": 243
+      },
+      {
+        "communityName": "Toilet in business (24 hours)",
+        "communityCoordinates": [
+          115.9524322,
+          -32.0697199
+        ],
+        "nearestOfficialFacilityId": "17737",
+        "nearestOfficialName": "Forest Lakes Shopping Centre",
+        "distanceMetres": 237
+      },
+      {
+        "communityName": "Toilet",
+        "communityCoordinates": [
+          115.9365786,
+          -32.1070572
+        ],
+        "nearestOfficialFacilityId": "64159",
+        "nearestOfficialName": "Coles Primewest Southern River",
+        "distanceMetres": 217
+      },
+      {
+        "communityName": "Toilet block",
+        "communityCoordinates": [
+          115.9304327,
+          -32.0405811
+        ],
+        "nearestOfficialFacilityId": "40131",
+        "nearestOfficialName": "Woodford Park",
+        "distanceMetres": 200
+      },
+      {
+        "communityName": "Toilet",
+        "communityCoordinates": [
+          116.0589249,
+          -31.9159727
+        ],
+        "nearestOfficialFacilityId": "65801",
+        "nearestOfficialName": "Mountain Quarry",
+        "distanceMetres": 189
+      },
+      {
+        "communityName": "Toilets",
+        "communityCoordinates": [
+          115.8519834,
+          -31.9562677
+        ],
+        "nearestOfficialFacilityId": "61839",
+        "nearestOfficialName": "Elizabeth Quay Bus Station",
+        "distanceMetres": 153
+      },
+      {
+        "communityName": "Toilets",
+        "communityCoordinates": [
+          115.887191,
+          -31.9516582
+        ],
+        "nearestOfficialFacilityId": "63864",
+        "nearestOfficialName": "Optus Stadium - Gate C",
+        "distanceMetres": 119
+      },
+      {
+        "communityName": "Toilet",
+        "communityCoordinates": [
+          116.0911976,
+          -31.8839776
+        ],
+        "nearestOfficialFacilityId": "15897",
+        "nearestOfficialName": "John Forrest Picnic Area",
+        "distanceMetres": 106
+      },
+      {
+        "communityName": "Toilet",
+        "communityCoordinates": [
+          115.7454568,
+          -31.8295864
+        ],
+        "nearestOfficialFacilityId": "54737",
+        "nearestOfficialName": "Sorrento Beach - South",
+        "distanceMetres": 105
+      },
+      {
+        "communityName": "Toilet block",
+        "communityCoordinates": [
+          115.8568733,
+          -31.9091553
+        ],
+        "nearestOfficialFacilityId": "64969",
+        "nearestOfficialName": "Yokine Playspace",
+        "distanceMetres": 102
+      }
+    ]
+  },
+  "amenityLayers": {
+    "adultChange": {
+      "recordCount": 69,
+      "source": "National Public Toilet Map"
+    },
+    "babyChange": {
+      "recordCount": 323,
+      "source": "National Public Toilet Map"
+    },
+    "showers": {
+      "recordCount": 264,
+      "openStreetMap": {
+        "sourceUrl": "https://www.openstreetmap.org",
+        "licence": "Open Data Commons Open Database License 1.0",
+        "licenceUrl": "https://www.openstreetmap.org/copyright",
+        "overpassEndpoint": "https://overpass-api.de/api/interpreter",
+        "osmTimestamp": "2026-10-11T12:06:50Z",
+        "sourceElementCount": 154,
+        "selectedPublicCandidateCount": 146,
+        "restrictedAccessExcludedCount": 7,
+        "unsupportedElementCount": 0,
+        "invalidOrOutsideScopeCount": 1
+      },
+      "merge": {
+        "method": "source-priority merge using nearest-point haversine distance",
+        "sourcePriority": [
+          "National Public Toilet Map",
+          "OpenStreetMap"
+        ],
+        "crossSourceMatchDistanceMetres": 50.0,
+        "nationalToiletMapShowerCount": 152,
+        "openStreetMapPublicCandidateCount": 146,
+        "openStreetMapRecordsMatchedToOfficialCount": 34,
+        "openStreetMapRecordsAddingCoverageCount": 112,
+        "mergedRecordCount": 264,
+        "matchedRecords": [
+          {
+            "osmId": "node/10185512539",
+            "nationalFacilityId": "9010",
+            "nationalName": "Falcon Bay",
+            "distanceMetres": 19
+          },
+          {
+            "osmId": "node/10245833924",
+            "nationalFacilityId": "9375",
+            "nationalName": "Coogee Beach",
+            "distanceMetres": 25
+          },
+          {
+            "osmId": "node/10252742959",
+            "nationalFacilityId": "9005",
+            "nationalName": "Calypso Park",
+            "distanceMetres": 5
+          },
+          {
+            "osmId": "node/10269158209",
+            "nationalFacilityId": "2392",
+            "nationalName": "Yanchep Lagoon",
+            "distanceMetres": 41
+          },
+          {
+            "osmId": "node/10269220038",
+            "nationalFacilityId": "5814",
+            "nationalName": "City Beach Park",
+            "distanceMetres": 28
+          },
+          {
+            "osmId": "node/10301421610",
+            "nationalFacilityId": "48929",
+            "nationalName": "Zig Zag Cultural & Visitor Centre",
+            "distanceMetres": 5
+          },
+          {
+            "osmId": "node/10564124709",
+            "nationalFacilityId": "42623",
+            "nationalName": "Bell Park",
+            "distanceMetres": 3
+          },
+          {
+            "osmId": "node/10762348801",
+            "nationalFacilityId": "62235",
+            "nationalName": "Lake Leschenaultia (Main Beach Area)",
+            "distanceMetres": 23
+          },
+          {
+            "osmId": "node/11145441239",
+            "nationalFacilityId": "4905",
+            "nationalName": "149 Marine Parade, Cottesloe",
+            "distanceMetres": 25
+          },
+          {
+            "osmId": "node/12500016973",
+            "nationalFacilityId": "8988",
+            "nationalName": "Madora Bay Central",
+            "distanceMetres": 14
+          },
+          {
+            "osmId": "node/12500045626",
+            "nationalFacilityId": "8989",
+            "nationalName": "Madora Bay South",
+            "distanceMetres": 2
+          },
+          {
+            "osmId": "node/12720758189",
+            "nationalFacilityId": "4904",
+            "nationalName": "Corner Marine Parade & Forrest Street",
+            "distanceMetres": 11
+          },
+          {
+            "osmId": "node/13408496694",
+            "nationalFacilityId": "12255",
+            "nationalName": "Basin",
+            "distanceMetres": 19
+          },
+          {
+            "osmId": "node/13408496696",
+            "nationalFacilityId": "12255",
+            "nationalName": "Basin",
+            "distanceMetres": 18
+          },
+          {
+            "osmId": "node/13578247921",
+            "nationalFacilityId": "7765",
+            "nationalName": "Safety Bay Foreshore Car Park",
+            "distanceMetres": 33
+          },
+          {
+            "osmId": "node/13578247922",
+            "nationalFacilityId": "7763",
+            "nationalName": "Mersey Point",
+            "distanceMetres": 6
+          },
+          {
+            "osmId": "node/4114315786",
+            "nationalFacilityId": "10978",
+            "nationalName": "South Trigg Rotunda",
+            "distanceMetres": 17
+          },
+          {
+            "osmId": "node/4131915099",
+            "nationalFacilityId": "42621",
+            "nationalName": "Bell Park",
+            "distanceMetres": 2
+          },
+          {
+            "osmId": "node/571421131",
+            "nationalFacilityId": "12257",
+            "nationalName": "Kingston Barracks",
+            "distanceMetres": 5
+          },
+          {
+            "osmId": "node/6382122641",
+            "nationalFacilityId": "53493",
+            "nationalName": "Henderson Avenue",
+            "distanceMetres": 1
+          },
+          {
+            "osmId": "node/6382122642",
+            "nationalFacilityId": "12244",
+            "nationalName": "Henderson Avenue",
+            "distanceMetres": 5
+          },
+          {
+            "osmId": "node/6382122643",
+            "nationalFacilityId": "12244",
+            "nationalName": "Henderson Avenue",
+            "distanceMetres": 3
+          },
+          {
+            "osmId": "node/706017922",
+            "nationalFacilityId": "1573",
+            "nationalName": "South Beach",
+            "distanceMetres": 43
+          },
+          {
+            "osmId": "node/7962545767",
+            "nationalFacilityId": "1577",
+            "nationalName": "Leighton Beach",
+            "distanceMetres": 6
+          },
+          {
+            "osmId": "node/8156563124",
+            "nationalFacilityId": "1577",
+            "nationalName": "Leighton Beach",
+            "distanceMetres": 26
+          },
+          {
+            "osmId": "node/8156563125",
+            "nationalFacilityId": "1577",
+            "nationalName": "Leighton Beach",
+            "distanceMetres": 24
+          },
+          {
+            "osmId": "node/8298223445",
+            "nationalFacilityId": "3650",
+            "nationalName": "Bindoon Oval (Behind Hall)",
+            "distanceMetres": 23
+          },
+          {
+            "osmId": "node/8448017557",
+            "nationalFacilityId": "64968",
+            "nationalName": "Trigg Island",
+            "distanceMetres": 38
+          },
+          {
+            "osmId": "node/8687996796",
+            "nationalFacilityId": "42447",
+            "nationalName": "Dwellingup Visitor Centre",
+            "distanceMetres": 17
+          },
+          {
+            "osmId": "node/9072890539",
+            "nationalFacilityId": "12242",
+            "nationalName": "Bedford Avenue",
+            "distanceMetres": 3
+          },
+          {
+            "osmId": "node/9568123189",
+            "nationalFacilityId": "12257",
+            "nationalName": "Kingston Barracks",
+            "distanceMetres": 6
+          },
+          {
+            "osmId": "node/9608164118",
+            "nationalFacilityId": "1577",
+            "nationalName": "Leighton Beach",
+            "distanceMetres": 42
+          },
+          {
+            "osmId": "node/9651805290",
+            "nationalFacilityId": "4904",
+            "nationalName": "Corner Marine Parade & Forrest Street",
+            "distanceMetres": 36
+          },
+          {
+            "osmId": "node/9852445616",
+            "nationalFacilityId": "5848",
+            "nationalName": "Hillarys North Beach",
+            "distanceMetres": 13
+          }
+        ]
+      }
+    },
+    "bbqs": {
+      "recordCount": 24,
+      "source": {
+        "name": "City of Perth Street Appurtenances",
+        "licence": "Creative Commons Attribution 4.0",
+        "datasetUrl": "https://catalogue.data.wa.gov.au/dataset/perth-street-appurtenances",
+        "serviceUrl": "https://services7.arcgis.com/v8XBa2naYNQGOjlG/arcgis/rest/services/INF_AST_APPURTENANCES_PT_PV/FeatureServer/0",
+        "queryUrl": "https://services7.arcgis.com/v8XBa2naYNQGOjlG/arcgis/rest/services/INF_AST_APPURTENANCES_PT_PV/FeatureServer/0/query?where=UNIT_TYPE+IN+%28%27BBQ_DOUBLE%27%2C%27BBQ_SINGLE%27%29&outFields=%2A&outSR=4326&f=geojson",
+        "sourceRecordCount": 24,
+        "selectedRecordCount": 24,
+        "unsupportedAssetTypeCount": 0,
+        "invalidRecordCount": 0,
+        "latestSelectedAssetUpdate": "2023-09-04T05:28:11.368000Z",
+        "singlePlateAssetCount": 11,
+        "doublePlateAssetCount": 13
+      }
+    }
+  }
+}

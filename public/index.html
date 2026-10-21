@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f8fafc">
+    <meta name="description" content="Mapping useful stuff">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Map">
+    <meta property="og:description" content="Mapping useful stuff">
+    <meta property="og:image" content="https://pickledonion.dev/map/og.png">
+    <meta property="og:image:width" content="1672">
+    <meta property="og:image:height" content="941">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Map">
+    <meta name="twitter:description" content="Mapping useful stuff">
+    <meta name="twitter:image" content="https://pickledonion.dev/map/og.png">
+    <title>Map</title>
+    <script id="map-cache-refresh">
+      if ("serviceWorker" in navigator) {
+        let controller = navigator.serviceWorker.controller;
+        let reloading = false;
+        navigator.serviceWorker.addEventListener("controllerchange", () => {
+          const nextController = navigator.serviceWorker.controller;
+          if (controller && nextController !== controller && !reloading) {
+            reloading = true;
+            window.location.reload();
+          }
+          controller = nextController;
+        });
+
+        function checkForMapUpdate() {
+          navigator.serviceWorker.getRegistration()
+            .then((registration) => registration && registration.update())
+            .catch(() => {});
+        }
+
+        navigator.serviceWorker.register("/service-worker.js", {
+          scope: "/",
+          updateViaCache: "none",
+        }).catch(() => {});
+        window.addEventListener("pageshow", (event) => {
+          if (event.persisted) checkForMapUpdate();
+        });
+        document.addEventListener("visibilitychange", () => {
+          if (document.visibilityState === "visible") checkForMapUpdate();
+        });
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="/map/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <div
+        id="map"
+        role="region"
+        aria-label="Interactive map of public amenities, climbing locations, surf spots, snorkelling spots and PSP routes around Perth"
+        aria-busy="true"
+      ></div>
+
+      <header class="map-toolbar" aria-label="Map controls">
+        <div class="toolbar-topline">
+          <h1>Map</h1>
+          <button
+            id="more-layers-toggle"
+            class="more-layers-toggle"
+            type="button"
+            aria-expanded="true"
+            aria-controls="extra-layer-toggles"
+            aria-label="Hide map items. Showing: No items selected"
+          >
+            <span id="selected-layer-summary" class="selected-layer-summary">No items selected</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="m5 7.5 5 5 5-5"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div
+          id="extra-layer-toggles"
+          class="extra-layer-toggles"
+          role="group"
+          aria-label="Map items"
+        >
+          <button
+            id="water-toggle"
+            data-layer-label="Water"
+            data-layer-colour="water"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-water" aria-hidden="true"></span>
+            Water <span id="water-count" class="layer-count"></span>
+          </button>
+          <button
+            id="toilet-toggle"
+            data-layer-label="Toilets"
+            data-layer-colour="toilet"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-toilet" aria-hidden="true"></span>
+            Toilets <span id="toilet-count" class="layer-count"></span>
+          </button>
+          <button
+            id="psp-toggle"
+            data-layer-label="PSP"
+            data-layer-colour="psp"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-psp" aria-hidden="true"></span>
+            PSP <span id="psp-count" class="layer-count"></span>
+          </button>
+          <button
+            id="shower-toggle"
+            data-layer-label="Showers"
+            data-layer-colour="shower"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-shower" aria-hidden="true"></span>
+            Showers <span id="shower-count" class="layer-count"></span>
+          </button>
+          <button
+            id="adult-change-toggle"
+            data-layer-label="Adult change"
+            data-layer-colour="adult-change"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-adult-change" aria-hidden="true"></span>
+            Adult change <span id="adult-change-count" class="layer-count"></span>
+          </button>
+          <button
+            id="baby-change-toggle"
+            data-layer-label="Baby change"
+            data-layer-colour="baby-change"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-baby-change" aria-hidden="true"></span>
+            Baby change <span id="baby-change-count" class="layer-count"></span>
+          </button>
+          <button
+            id="bbq-toggle"
+            data-layer-label="BBQs"
+            data-layer-colour="bbq"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-bbq" aria-hidden="true"></span>
+            BBQs <span id="bbq-count" class="layer-count"></span>
+          </button>
+          <button
+            id="bouldering-toggle"
+            data-layer-label="Bouldering"
+            data-layer-colour="bouldering"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-bouldering" aria-hidden="true"></span>
+            Bouldering <span id="bouldering-count" class="layer-count"></span>
+          </button>
+          <button
+            id="climbing-toggle"
+            data-layer-label="Climbing"
+            data-layer-colour="climbing"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-climbing" aria-hidden="true"></span>
+            Climbing <span id="climbing-count" class="layer-count"></span>
+          </button>
+          <button
+            id="surf-toggle"
+            data-layer-label="Surf"
+            data-layer-colour="surf"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-surf" aria-hidden="true"></span>
+            Surf <span id="surf-count" class="layer-count"></span>
+          </button>
+          <button
+            id="snorkelling-toggle"
+            data-layer-label="Snorkelling"
+            data-layer-colour="snorkelling"
+            class="layer-toggle"
+            type="button"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="layer-dot layer-dot-snorkelling" aria-hidden="true"></span>
+            Snorkelling <span id="snorkelling-count" class="layer-count"></span>
+          </button>
+        </div>
+
+        <form id="search-form" class="search-form" role="search">
+          <label class="visually-hidden" for="search-input">Search for a Perth suburb or address</label>
+          <input
+            id="search-input"
+            name="search"
+            type="search"
+            placeholder="Search suburb or address"
+            autocomplete="off"
+            autocapitalize="words"
+            enterkeyhint="search"
+          >
+          <button id="search-button" type="submit">Search</button>
+        </form>
+
+        <div id="search-results" class="search-results" hidden>
+          <p id="search-message" class="search-message" role="status"></p>
+          <ul id="search-list"></ul>
+        </div>
+      </header>
+
+      <div class="bottom-controls">
+        <button id="locate-button" class="locate-button" type="button">
+          <span class="locate-symbol" aria-hidden="true"></span>
+          <span id="locate-label">Locate me</span>
+        </button>
+
+        <div id="map-type-control" class="map-type-control">
+          <button
+            id="map-type-toggle"
+            class="map-type-toggle"
+            type="button"
+            aria-label="Map layers, current view: Map"
+            title="Map layers"
+            aria-expanded="false"
+            aria-controls="map-type-options"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m12 3 10 5-10 5L2 8Z"></path>
+              <path d="m2 12 10 5 10-5M2 16l10 5 10-5"></path>
+            </svg>
+          </button>
+          <div id="map-type-options" class="map-type-options" role="group" aria-label="Map view" hidden>
+            <button
+              class="map-type-button is-active"
+              type="button"
+              data-map-type="map"
+              aria-pressed="true"
+            >Map</button>
+            <button
+              class="map-type-button"
+              type="button"
+              data-map-type="satellite"
+              aria-pressed="false"
+            >Satellite</button>
+            <button
+              class="map-type-button"
+              type="button"
+              data-map-type="terrain"
+              aria-pressed="false"
+            >Terrain</button>
+          </div>
+        </div>
+      </div>
+
+      <p id="status-message" class="status-message" role="status" aria-live="polite" hidden></p>
+
+      <noscript>
+        <p class="noscript-message">This map needs JavaScript to display locations.</p>
+      </noscript>
+    </main>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/map/app.js" defer></script>
+  </body>
+</html>
